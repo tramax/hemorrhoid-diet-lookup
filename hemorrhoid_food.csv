@@ -133,31 +133,31 @@ Dairy,Butter,Low,Neutral,Moderate,Neutral,High fat; may cause discomfort; small 
 Dairy,Margarine,Low,Neutral,Moderate,Neutral,High fat; limited benefit for stool softness.,4,Poor
 Dairy,Condensed milk,Low,Hard,Very high,Very sticky,Extremely high sugar; can significantly harden stool. Avoid.,4,Very Poor
 Dairy,Evaporated milk,Low,Hard,High,Sticky,Concentrated milk with minimal fibre; may harden stool.,4,Poor
-Snack,Almonds,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Cashews,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Peanuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Walnuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Sunflower seeds,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Potato chips,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Popcorn,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Seaweed snacks,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Milk chocolate,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Dark chocolate,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Mochi,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Rice crackers,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Cream crackers,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Digestive biscuits,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Marie biscuits,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Granola,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Trail mix,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Dried apricots,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Dried figs,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Dried raisins,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Dried prunes,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Cupcakes,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Doughnuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Waffles,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
-Snack,Croissants,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2,Poor
+Snack,Almonds,Moderate,Hard,High,Neutral,High insoluble fiber; scratchy residue increases stool bulk and pain.,2,Poor
+Snack,Cashews,Moderate,Hard,High,Neutral,"Dense, dry and fatty; tends to harden stool.",2,Poor
+Snack,Peanuts,Moderate,Hard,High,Sticky,Sticky when digested and increases stool firmness.,2,Poor
+Snack,Walnuts,Moderate,Moderately soft,Moderate,Slightly sticky,Softer nut; oils help but still adds stool bulk.,2,Acceptable
+Snack,Sunflower seeds,Moderate,Hard,High,Neutral,Seed fragments may irritate the anal canal and harden stool.,2,Poor
+Snack,Potato chips,Low,Hard,Very high,Sticky,Dry and oily; highly constipating and dehydrating.,2,Very Poor
+Snack,Popcorn,Low,Hard,High,Scratchy,Hull fragments are rough and increase irritation risk.,2,Poor
+Snack,Seaweed snacks,Low,Moderately soft,Moderate,Neutral,Often oily and salty; acceptable in small portions.,2,Acceptable
+Snack,Milk chocolate,Low,Hard,High,Sticky,Sugar and dairy can constipate; forms sticky stool.,2,Poor
+Snack,Dark chocolate,Low,Hard,Moderate–High,Sticky,Cocoa can firm stool; consume minimally.,2,Poor
+Snack,Mochi,Low,Hard,Very high,Very sticky,Glutinous rice forms extremely sticky stool; avoid.,2,Very Poor
+Snack,Rice crackers,Low,Hard,High,Neutral,Extremely dry; absorbs moisture and hardens stool.,2,Poor
+Snack,Cream crackers,Low,Hard,Very high,Neutral,Highly dehydrating; one of the worst for constipation.,2,Very Poor
+Snack,Digestive biscuits,Low,Moderately hard,High,Neutral,"Despite fiber claims, still dry and firms stool.",2,Poor
+Snack,Marie biscuits,Low,Hard,Very high,Neutral,Dry refined flour; strongly constipating.,2,Very Poor
+Snack,Granola,Moderate,Moderately soft,Moderate,Neutral,Oats soften but nuts and sugar increase density; small portions only.,2,Acceptable
+Snack,Trail mix,Moderate,Moderately hard,High,Sticky,Nuts and dried fruit increase stool bulk and stickiness.,2,Poor
+Snack,Dried apricots,Low,Hard,High,Very sticky,High sugar makes stool sticky despite fiber content.,2,Poor
+Snack,Dried figs,Low,Hard,High,Sticky,Seeds and sugar can irritate and harden stool.,2,Poor
+Snack,Dried raisins,Low,Hard,High,Sticky,Very sugary and sticky; increases stool firmness.,2,Poor
+Snack,Dried prunes,Low,Soft,Low,Smooth,Sorbitol helps soften stool; effective in small portions.,2,Good
+Snack,Cupcakes,Low,Hard,High,Very sticky,"Refined flour + sugar + fat create dense, sticky stool.",2,Very Poor
+Snack,Doughnuts,Low,Hard,Very high,Very sticky,Fried and sugary; strongly dehydrating to stool.,2,Very Poor
+Snack,Waffles,Low,Hard,High,Neutral,Dry refined flour leads to harder stool.,2,Very Poor
+Snack,Croissants,Low,Hard,High,Neutral,Dry buttery pastry dries stool and increases hardness.,2,Very Poor
 Drinks,Water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
 Drinks,Coconut water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
 Drinks,Barley water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
