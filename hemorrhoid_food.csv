@@ -21,8 +21,8 @@ Fruit,Lychee,Moderate,Moderately soft,Moderate,Sticky,High sugar; may produce st
 Fruit,Longan,Moderate,Moderately soft,Moderate,Sticky,High sugar; limit during recovery.,4,Poor
 Fruit,Rambutan,Moderate,Moderately soft,Moderate,Sticky,High sugar; limit during recovery.,4,Poor
 Fruit,Mangosteen,Moderate,Moderately soft,Moderate,Neutral,Moderate fibre and sugar; use small portions.,4,Acceptable
-Fruit,Durian,Moderate,Moderately hard,High,Very sticky,High fat and sugar; can make stool sticky.,4,Poor
-Fruit,Jackfruit,High,Moderately hard,High,Sticky,Fibrous and sticky; may harden stool.,4,Poor
+Fruit,Durian,Moderate,Moderately soft,High,Very sticky,High fat and sugar; can make stool sticky.,4,Poor
+Fruit,Jackfruit,High,Moderately soft,High,Sticky,Fibrous and sticky; may harden stool.,4,Poor
 Fruit,Pomelo,Moderate,Moderately soft,Low,Neutral,Hydrating and mild; good choice.,4,Good
 Grains,White rice,Moderate,Hard,High,Neutral,"Refined, low-fibre rice; can make stool small and firm if eaten as the main carb without soups, fruits or vegetables.",2.75,Poor
 Grains,Brown rice,High,Moderately soft,Moderate,Neutral,Higher insoluble fibre softens stool but increases bulk; better in later recovery and in small portions with plenty of fluid.,2,Acceptable
@@ -167,7 +167,7 @@ Drinks,Black tea,Very low,Moderately soft,Moderate,Neutral,Caffeine and tannins 
 Drinks,Black coffee,Very low,Moderately soft,Moderate,Neutral,Stimulates bowel movement but dries stool; may worsen pain.,5,Poor
 Drinks,Milk tea,Low,Hard,High,Sticky,Dairy + tea + sugar increase stool firmness; avoid during recovery.,5,Very Poor
 Drinks,Bubble tea,Low,Hard,Very high,Very sticky,Tapioca pearls create very sticky stool; strongly constipating.,5,Very Poor
-Drinks,Fruit smoothies,Low,Moderately hard,High,Sticky,Blended fruit becomes dense and sticky; may firm stool.,5,Poor
+Drinks,Fruit smoothies,Low,Moderately soft,High,Sticky,Blended fruit becomes dense and sticky; may firm stool.,5,Poor
 Drinks,Orange juice,Low,Moderately soft,Moderate,Neutral,High fructose content may dehydrate stool; limit intake.,5,Poor
 Drinks,Apple juice,Low,Moderately soft,High,Neutral,Fructose load tends to increase stool stickiness.,5,Poor
 Drinks,Sugarcane juice,Low,Hard,Very high,Very sticky,Extremely high sugar causes dehydration and sticky stool.,5,Very Poor
