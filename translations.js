@@ -362,11 +362,11 @@ export const categoryTranslations = {
   vi: {
     Fruit: "Trái cây",
     Vegetable: "Rau củ",
-    "Grains & Staples": "Ngũ cốc & Thực phẩm chính",
-    Protein: "Protein",
+    "Grains": "Ngũ cốc",
+    Protein: "Thịt cá",
     Dairy: "Sữa & Chế phẩm",
-    Snacks: "Đồ ăn vặt",
-    "Beverages & Liquids": "Đồ uống & Nước",
-    Dishes: "Món ăn hoàn chỉnh",
+    Snack: "Đồ ăn vặt",
+    "Drinks": "Đồ uống",
+    Dish: "Món ăn",
   },
 };
