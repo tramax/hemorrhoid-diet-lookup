@@ -24,36 +24,36 @@ Fruit,Mangosteen,Moderate,Moderately soft,Moderate,Neutral,Moderate fibre and su
 Fruit,Durian,Moderate,Moderately hard,High,Very sticky,High fat and sugar; can make stool sticky.,4,Poor
 Fruit,Jackfruit,High,Moderately hard,High,Sticky,Fibrous and sticky; may harden stool.,4,Poor
 Fruit,Pomelo,Moderate,Moderately soft,Low,Neutral,Hydrating and mild; good choice.,4,Good
-Grains,White rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Brown rice,High,Hard,High,Sticky,Can increase stool bulk; limit during recovery.,2,Poor
-Grains,Jasmine rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Japanese rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Sticky rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Congee,Moderate,Soft,High,Neutral,Very gentle on digestion; highly recommended.,3,Acceptable
-Grains,Rice vermicelli,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Pho noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Kway teow,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Hokkien noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Yellow noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Instant noodles (fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Instant noodles (non-fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Banh mi,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,White bread,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Whole wheat bread,High,Hard,High,Sticky,Can increase stool bulk; limit during recovery.,2,Poor
-Grains,Multigrain bread,High,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.5,Poor
-Grains,Quinoa,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Barley,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Rolled oats,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Instant oats,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Chia seeds,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Flax seeds,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Sweet potato,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Korean sweet potato,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Potato (boiled),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Potato (fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Taro,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Yam,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
-Grains,Corn,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,White rice,Moderate,Hard,High,Neutral,"Refined, low-fibre rice; can make stool small and firm if eaten as the main carb without soups, fruits or vegetables.",2.75,Poor
+Grains,Brown rice,High,Moderately soft,Moderate,Neutral,Higher insoluble fibre softens stool but increases bulk; better in later recovery and in small portions with plenty of fluid.,2,Acceptable
+Grains,Jasmine rice,Moderate,Hard,High,Neutral,Fragrant white rice with low fibre; similar to other white rice and may contribute to harder stool if eaten alone.,2.75,Poor
+Grains,Japanese rice,Moderate,Hard,High,Sticky,Short‑grain sticky rice that clumps easily; can form dense stool and increase straining.,2.75,Poor
+Grains,Sticky rice,High,Hard,Very high,Very sticky,Glutinous rice is very sticky and dense; can form hard lumps of stool and is best avoided during recovery.,2.75,Very Poor
+Grains,Congee,Low,Very soft,Low,Smooth,"Rice cooked with a lot of water into porridge; very gentle, low‑residue and ideal when pain is severe.",3,Excellent
+Grains,Rice vermicelli,Moderate,Moderately soft,Moderate,Neutral,"Refined rice noodles; better in soup than fried, but does not itself soften stool—pair with soft vegetables and fluids.",2.75,Acceptable
+Grains,Pho noodles,Moderate,Moderately soft,Moderate,Neutral,Fresh flat rice noodles in broth; generally soft and hydrating if eaten with plenty of soup.,2.75,Good
+Grains,Kway teow,Moderate,Moderately soft,High,Sticky,"Often served fried with oil; can become sticky and dry in the gut, so limit while wounds are fresh.",2.75,Poor
+Grains,Hokkien noodles,Moderate,Hard,High,Sticky,"Thick yellow wheat noodles; low in fibre and often oily, which may promote firm, sticky stools.",2.75,Poor
+Grains,Yellow noodles,Moderate,Hard,High,Sticky,"Processed wheat/egg noodles; can be dense and constipating, especially when stir‑fried and not taken with soup.",2.75,Poor
+Grains,Instant noodles (fried),Low,Hard,Very high,Sticky,"Highly processed, low‑fibre and dehydrating; frequent intake is linked with constipation and should be avoided in recovery.",2.75,Very Poor
+Grains,Instant noodles (non-fried),Low,Hard,High,Sticky,Still very low in fibre and high in sodium; may dry and firm the stool unless balanced with a lot of broth and vegetables.,2.75,Poor
+Grains,Banh mi,Moderate,Hard,High,Sticky,Vietnamese white baguette; refined flour with a dry crumb that can absorb water and contribute to harder stools.,2.75,Poor
+Grains,White bread,Moderate,Hard,High,Sticky,Processed white bread is low in fibre and may worsen constipation if eaten in large amounts without fruits or vegetables.,2.75,Poor
+Grains,Whole wheat bread,High,Moderately soft,Moderate,Neutral,"Higher fibre than white bread and can soften stool, but increases bulk; introduce gradually and drink enough water.",2,Acceptable
+Grains,Multigrain bread,High,Moderately soft,Moderate,Neutral,Often contains seeds and whole grains; can help softness but makes stool bulkier and may irritate if many hard seeds are present.,2.5,Acceptable
+Grains,Quinoa,High,Moderately soft,Low,Neutral,Whole grain with both fibre types; can support softer stools but increases volume—better once acute pain has settled.,2.75,Acceptable
+Grains,Barley,High,Soft,Low,Neutral,Rich in soluble fibre that softens stool but also adds bulk; use small portions with plenty of fluid.,2.75,Acceptable
+Grains,Rolled oats,High,Soft,Low,Smooth,"Oats contain soluble fibre that forms a gentle gel, helping produce soft, easy‑to‑pass stools when taken with enough fluid.",2.75,Good
+Grains,Instant oats,High,Soft,Low,Smooth,Similar to rolled oats but more processed; still helpful for softening stool if not overloaded with sugar.,2.75,Good
+Grains,Chia seeds,High,Soft,Low,Smooth,"When soaked, chia forms a gel that softens and lubricates stool; must be taken with plenty of water to avoid blockage.",2.75,Excellent
+Grains,Flax seeds,High,Soft,Low,Smooth,Ground flax provides soluble and insoluble fibre and gentle oil; softens stool and acts as a mild natural laxative if fluids are adequate.,2.75,Excellent
+Grains,Sweet potato,Moderate,Soft,Low,Neutral,"Boiled or steamed sweet potato contains water and fibre that help soften stool; best eaten mashed or in small chunks, not deep‑fried.",2.75,Good
+Grains,Korean sweet potato,Moderate,Moderately soft,Low,Neutral,Denser and sweeter than regular sweet potato but still helpful for stool softness when boiled or baked and eaten with fluids.,2.75,Good
+Grains,Potato (boiled),Moderate,Moderately soft,Moderate,Neutral,Plain boiled or mashed potato is gentle but low in fibre; pair with soft vegetables and soups to avoid overly firm stools.,2.75,Acceptable
+Grains,Potato (fried),Low,Hard,High,Sticky,Deep‑fried potatoes are dry and oily; they add calories without moisture or fibre and can contribute to harder stools.,2.75,Poor
+Grains,Taro,Moderate,Moderately soft,Moderate,Neutral,"When well‑boiled in soups or stews, taro is fairly soft but starchy; keep portions small and avoid crispy taro snacks.",2.75,Acceptable
+Grains,Yam,Moderate,Moderately soft,Moderate,Neutral,"Similar to taro; soft when boiled but can still be quite starchy, so combine with fluids and vegetables.",2.75,Acceptable
+Grains,Corn,High,Hard,Moderate,Neutral,Corn skins often pass intact and add rough bulk; may be uncomfortable if your anal area is very sensitive.,2.75,Poor
 Vegetable,Spinach,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
 Vegetable,Bok choy,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
 Vegetable,Choy sum,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
