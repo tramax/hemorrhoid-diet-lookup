@@ -158,21 +158,21 @@ Snack,Cupcakes,Low,Hard,High,Very sticky,"Refined flour + sugar + fat create den
 Snack,Doughnuts,Low,Hard,Very high,Very sticky,Fried and sugary; strongly dehydrating to stool.,2,Very Poor
 Snack,Waffles,Low,Hard,High,Neutral,Dry refined flour leads to harder stool.,2,Very Poor
 Snack,Croissants,Low,Hard,High,Neutral,Dry buttery pastry dries stool and increases hardness.,2,Very Poor
-Drinks,Water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Coconut water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Barley water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Chrysanthemum tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Green tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Black tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Black coffee,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Milk tea,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Drinks,Bubble tea,Low,Hard,High,Very sticky,Sugary drink with pearls can increase stool stickiness and constipation; avoid during recovery.,5,Very Poor
-Drinks,Fruit smoothies,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Drinks,Orange juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Drinks,Apple juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Drinks,Sugarcane juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Drinks,Tau huay,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
-Drinks,Bird’s nest drink,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
+Drinks,Water,Very low,Very soft,Very low,Smooth,Best hydration source; consistently softens stool.,5,Excellent
+Drinks,Coconut water,Very low,Soft,Low,Smooth,Electrolytes support hydration and stool softness.,5,Excellent
+Drinks,Barley water,Very low,Soft,Low,Smooth,Contains soluble fiber; gentle stool-softening effect.,5,Excellent
+Drinks,Chrysanthemum tea,Very low,Soft,Low,Smooth,Hydrating herbal drink; soothing and gentle.,5,Good
+Drinks,Green tea,Very low,Moderately soft,Moderate,Neutral,Mild caffeine may dehydrate; consume with extra water.,5,Acceptable
+Drinks,Black tea,Very low,Moderately soft,Moderate,Neutral,Caffeine and tannins may firm stool; limit intake.,5,Poor
+Drinks,Black coffee,Very low,Moderately soft,Moderate,Neutral,Stimulates bowel movement but dries stool; may worsen pain.,5,Poor
+Drinks,Milk tea,Low,Hard,High,Sticky,Dairy + tea + sugar increase stool firmness; avoid during recovery.,5,Very Poor
+Drinks,Bubble tea,Low,Hard,Very high,Very sticky,Tapioca pearls create very sticky stool; strongly constipating.,5,Very Poor
+Drinks,Fruit smoothies,Low,Moderately hard,High,Sticky,Blended fruit becomes dense and sticky; may firm stool.,5,Poor
+Drinks,Orange juice,Low,Moderately soft,Moderate,Neutral,High fructose content may dehydrate stool; limit intake.,5,Poor
+Drinks,Apple juice,Low,Moderately soft,High,Neutral,Fructose load tends to increase stool stickiness.,5,Poor
+Drinks,Sugarcane juice,Low,Hard,Very high,Very sticky,Extremely high sugar causes dehydration and sticky stool.,5,Very Poor
+Drinks,Tau huay,Very low,Soft,Moderate,Smooth,Soft and hydrating; choose less-sweet versions.,5,Good
+Drinks,Bird’s nest drink,Low,Moderately soft,Moderate,Neutral,Often sugary; limited stool-softening effect.,5,Acceptable
 Drinks,Herbal soup,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
 Drinks,Chicken broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent
 Drinks,Pork broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5,Excellent

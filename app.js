@@ -162,6 +162,21 @@ function renderResults() {
     );
   }
 
+  // Sort by suitability (best first)
+  const suitabilityOrder = {
+    Excellent: 1,
+    Good: 2,
+    Acceptable: 3,
+    Poor: 4,
+    "Very Poor": 5,
+  };
+
+  filtered.sort((a, b) => {
+    const scoreA = suitabilityOrder[a.GlobalSuitabilityScore] || 999;
+    const scoreB = suitabilityOrder[b.GlobalSuitabilityScore] || 999;
+    return scoreA - scoreB;
+  });
+
   resultsDiv.innerHTML = "";
 
   if (!allFoods.length) {
