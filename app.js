@@ -261,7 +261,7 @@ function applyLanguage() {
   const t = uiText[currentLang];
   document.getElementById("titleText").textContent = t.title;
   document.getElementById("subtitleText").textContent = t.subtitle;
-  
+
   // Update info toggle button text based on current state
   const subtitle = document.getElementById("subtitleText");
   const infoToggle = document.getElementById("infoToggle");
@@ -270,7 +270,7 @@ function applyLanguage() {
   } else {
     infoToggle.textContent = t.infoHide;
   }
-  
+
   searchInput.placeholder = t.searchPlaceholder;
   clearBtn.textContent = t.clear;
   document.getElementById("categoryFilterLabel").textContent = t.filterCategory;
@@ -330,7 +330,7 @@ document.getElementById("infoToggle").addEventListener("click", (e) => {
   const subtitle = document.getElementById("subtitleText");
   const toggle = document.getElementById("infoToggle");
   const t = uiText[currentLang];
-  
+
   if (subtitle.style.display === "none") {
     subtitle.style.display = "block";
     toggle.textContent = t.infoHide;
