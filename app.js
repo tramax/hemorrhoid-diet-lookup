@@ -204,12 +204,19 @@ function renderResults() {
     grid.className = "grid";
 
     function addMetric(labelKey, valueRaw, metricCategoryKey) {
+      const icons = {
+        stoolOutput: "🏔️",
+        softness: "💧",
+        hardeningRisk: "🪵",
+        stickiness: "🍯",
+      };
+
       const block = document.createElement("div");
       block.className = "metric-block";
 
       const l = document.createElement("div");
       l.className = "label";
-      l.textContent = uiText[currentLang].labels[labelKey];
+      l.textContent = `${icons[labelKey]} ${uiText[currentLang].labels[labelKey]}`;
 
       const v = document.createElement("div");
       v.className = "value";
