@@ -1,29 +1,29 @@
 Category,Food,StoolOutput,StoolSoftness,HardeningRisk,Stickiness,Recommendation,NumericScore,GlobalSuitabilityScore
-Fruit,Papaya,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Mango (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Mango (green),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Banana (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Banana (unripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Apple (with skin),High,Moderately soft,Low,Neutral,Adds bulk and rougher texture; limit if bulky stool worsens pain.,4,Acceptable
-Fruit,Apple (without skin),Moderate,Moderately soft,Moderate,Neutral,Less bulky and easier to tolerate; good in small portions with fluids.,4,Good
-Fruit,Pear,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Watermelon,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Dragon fruit (white),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Dragon fruit (red),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Kiwi (green),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Kiwi (yellow),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Orange,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Pineapple,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Grapes,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Guava (with seeds),High,Hard,Very high,Very sticky,Hard seeds can irritate and increase stool bulk; avoid during recovery.,4,Very Poor
-Fruit,Guava (seedless),Moderate,Moderately soft,Moderate,Neutral,Still high fibre; use small portions and chew well.,4,Acceptable
-Fruit,Lychee,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Longan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Rambutan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Mangosteen,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Durian,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Jackfruit,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
-Fruit,Pomelo,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4,Good
+Fruit,Papaya,Low,Very soft,Very low,Smooth,High water and enzymes; excellent for soft stool.,4,Excellent
+Fruit,Mango (ripe),Moderate,Soft,Low,Smooth,Ripe and soft; good for stool softness.,4,Good
+Fruit,Mango (green),High,Hard,High,Sticky,High insoluble fibre; can harden stool.,4,Poor
+Fruit,Banana (ripe),Moderate,Soft,Low,Smooth,Ripe banana softens stool.,4,Good
+Fruit,Banana (unripe),High,Hard,Very high,Sticky,Unripe banana firms stool; avoid.,4,Very Poor
+Fruit,Apple (with skin),High,Moderately soft,Low,Neutral,Skin adds bulk; limit if bulky stool increases pain.,4,Acceptable
+Fruit,Apple (without skin),Moderate,Moderately soft,Moderate,Neutral,Less bulk; easier to tolerate.,4,Good
+Fruit,Pear,Moderate,Soft,Low,Smooth,High water content; helps soften stool.,4,Good
+Fruit,Watermelon,Low,Soft,Low,Smooth,Very hydrating; excellent for soft stool.,4,Excellent
+Fruit,Dragon fruit (white),Moderate,Soft,Low,Smooth,Soft and hydrating; good for stool.,4,Good
+Fruit,Dragon fruit (red),Moderate,Soft,Low,Smooth,Soft and hydrating; good for stool.,4,Good
+Fruit,Kiwi (green),Low,Soft,Low,Smooth,Clinically shown to help constipation.,4,Excellent
+Fruit,Kiwi (yellow),Low,Soft,Low,Smooth,Soft and effective for stool softening.,4,Excellent
+Fruit,Orange,Moderate,Moderately soft,Low,Neutral,Hydrating and softening.,4,Good
+Fruit,Pineapple,High,Moderately soft,Moderate,Neutral,Fibrous core may irritate; use small portions.,4,Acceptable
+Fruit,Grapes,Moderate,Moderately soft,Moderate,Sticky,High sugar; may cause stickiness.,4,Acceptable
+Fruit,Guava (with seeds),High,Hard,Very high,Very sticky,Seeds can irritate and bulk stool; avoid.,4,Very Poor
+Fruit,Guava (seedless),Moderate,Moderately soft,Moderate,Neutral,Better than seeded; still high fibre.,4,Acceptable
+Fruit,Lychee,Moderate,Moderately soft,Moderate,Sticky,High sugar; may produce sticky stool.,4,Poor
+Fruit,Longan,Moderate,Moderately soft,Moderate,Sticky,High sugar; limit during recovery.,4,Poor
+Fruit,Rambutan,Moderate,Moderately soft,Moderate,Sticky,High sugar; limit during recovery.,4,Poor
+Fruit,Mangosteen,Moderate,Moderately soft,Moderate,Neutral,Moderate fibre and sugar; use small portions.,4,Acceptable
+Fruit,Durian,Moderate,Moderately hard,High,Very sticky,High fat and sugar; can make stool sticky.,4,Poor
+Fruit,Jackfruit,High,Moderately hard,High,Sticky,Fibrous and sticky; may harden stool.,4,Poor
+Fruit,Pomelo,Moderate,Moderately soft,Low,Neutral,Hydrating and mild; good choice.,4,Good
 Grains,White rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
 Grains,Brown rice,High,Hard,High,Sticky,Can increase stool bulk; limit during recovery.,2,Poor
 Grains,Jasmine rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
