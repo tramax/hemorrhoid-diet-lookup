@@ -182,12 +182,7 @@ function renderResults() {
 
     const category = document.createElement("div");
     category.className = "category-tag";
-    const catDot = document.createElement("span");
-    catDot.className = "dot";
-    category.appendChild(catDot);
-    const catText = document.createElement("span");
-    catText.textContent = getCategoryDisplayName(f.Category);
-    category.appendChild(catText);
+    category.textContent = getCategoryDisplayName(f.Category);
 
     left.appendChild(foodName);
     left.appendChild(category);
@@ -247,7 +242,6 @@ function applyLanguage() {
   const t = uiText[currentLang];
   document.getElementById("titleText").textContent = t.title;
   document.getElementById("subtitleText").textContent = t.subtitle;
-  document.getElementById("infoBannerText").textContent = t.infoBanner;
   searchInput.placeholder = t.searchPlaceholder;
   clearBtn.textContent = t.clear;
   document.getElementById("categoryFilterLabel").textContent = t.filterCategory;
