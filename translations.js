@@ -14,7 +14,7 @@ export const uiText = {
     loading: "Loading food database…",
     noResults: "No foods found.",
     noResultsTip:
-      "Tip: relax filters or search by main ingredient (e.g. 'fish', 'rice', 'soup').",
+      "Tip: relax filters or search by main ingredient (e.g. fish, rice, soup).",
     resultsCount: (count) => `Showing ${count} item(s).`,
     footer:
       "This tool is for educational purposes only and does not replace professional medical advice. Always follow your surgeon's or doctor's specific instructions.",
@@ -48,7 +48,7 @@ export const uiText = {
     loading: "Đang tải dữ liệu thực phẩm…",
     noResults: "Không tìm thấy thực phẩm phù hợp.",
     noResultsTip:
-      "Gợi ý: nới lỏng bộ lọc hoặc tìm theo nguyên liệu chính (ví dụ: 'cá', 'cơm', 'súp').",
+      "Gợi ý: nới lỏng bộ lọc hoặc tìm theo nguyên liệu chính (ví dụ: cá, cơm, súp).",
     resultsCount: (count) => `Hiển thị ${count} món.`,
     footer:
       "Công cụ này chỉ mang tính tham khảo, không thay thế ý kiến bác sĩ. Luôn làm theo hướng dẫn cụ thể của bác sĩ hoặc phẫu thuật viên.",
