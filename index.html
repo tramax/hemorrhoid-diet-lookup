@@ -10,7 +10,6 @@
         --bg: #f3f4f6;
         --card-bg: #ffffff;
         --border-subtle: #e5e7eb;
-        --border-strong: #cbd5f5;
         --text-main: #111827;
         --text-muted: #6b7280;
         --text-soft: #9ca3af;
@@ -53,6 +52,16 @@
 
       header {
         margin-bottom: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 8px;
       }
 
       h1 {
@@ -62,14 +71,34 @@
         letter-spacing: 0.01em;
       }
 
+      .lang-toggle {
+        display: inline-flex;
+        border-radius: 999px;
+        border: 1px solid #e5e7eb;
+        overflow: hidden;
+        background: #f9fafb;
+      }
+
+      .lang-btn {
+        padding: 4px 10px;
+        font-size: 0.75rem;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: var(--text-soft);
+      }
+
+      .lang-btn.active {
+        background: #4f46e5;
+        color: white;
+      }
+
       .subtitle {
         font-size: 0.9rem;
         color: var(--text-muted);
-        margin-top: 4px;
       }
 
       .info-banner {
-        margin-top: 10px;
         font-size: 0.75rem;
         padding: 8px 10px;
         border-radius: 10px;
@@ -345,12 +374,20 @@
   <body>
     <div class="app">
       <header>
-        <h1>Hemorrhoid Diet Lookup</h1>
-        <div class="subtitle">
+        <div class="header-top">
+          <div>
+            <h1 id="titleText">Hemorrhoid Diet Lookup</h1>
+          </div>
+          <div class="lang-toggle">
+            <button class="lang-btn active" id="btnEn">EN</button>
+            <button class="lang-btn" id="btnVi">VI</button>
+          </div>
+        </div>
+        <div class="subtitle" id="subtitleText">
           Check how a food is likely to affect your stool after hemorrhoid
           surgery.
         </div>
-        <div class="info-banner">
+        <div class="info-banner" id="infoBannerText">
           This tool focuses on stool output, softness, hardening risk, and
           stickiness to help you choose foods that minimise pain when passing
           motion.
@@ -369,24 +406,26 @@
           <button class="clear-btn" id="clearBtn">Clear</button>
         </div>
 
-        <div class="filter-label">Filter by category</div>
-        <div class="pill-row" id="categoryPills">
-          <!-- Category pills injected here -->
+        <div class="filter-label" id="categoryFilterLabel">
+          Filter by category
         </div>
+        <div class="pill-row" id="categoryPills"></div>
 
-        <div class="filter-label" style="margin-top: 6px">
+        <div
+          class="filter-label"
+          style="margin-top: 6px"
+          id="suitabilityFilterLabel"
+        >
           Filter by suitability
         </div>
-        <div class="pill-row" id="suitabilityPills">
-          <!-- Suitability pills injected here -->
-        </div>
+        <div class="pill-row" id="suitabilityPills"></div>
       </section>
 
       <div class="results-count" id="resultsCount">Loading food database…</div>
 
       <div class="results" id="results"></div>
 
-      <footer>
+      <footer id="footerText">
         This tool is for educational purposes only and does not replace
         professional medical advice. Always follow your surgeon’s or doctor’s
         specific instructions.
@@ -399,6 +438,7 @@
       let allFoods = [];
       let activeCategory = "All";
       let activeSuitability = "All";
+      let currentLang = "en";
 
       const searchInput = document.getElementById("search");
       const resultsDiv = document.getElementById("results");
@@ -407,6 +447,402 @@
       const suitabilityPills = document.getElementById("suitabilityPills");
       const clearBtn = document.getElementById("clearBtn");
 
+      // UI text
+      const uiText = {
+        en: {
+          title: "Hemorrhoid Diet Lookup",
+          subtitle:
+            "Check how a food is likely to affect your stool after hemorrhoid surgery.",
+          infoBanner:
+            "This tool focuses on stool output, softness, hardening risk, and stickiness to help you choose foods that minimise pain when passing motion.",
+          searchPlaceholder:
+            "Search by food name or category (e.g. salmon, pho, fruit)...",
+          clear: "Clear",
+          filterCategory: "Filter by category",
+          filterSuitability: "Filter by suitability",
+          loading: "Loading food database…",
+          noResults: "No foods found.",
+          noResultsTip:
+            "Tip: relax filters or search by main ingredient (e.g. 'fish', 'rice', 'soup').",
+          resultsCount: (count) => `Showing ${count} item(s).`,
+          footer:
+            "This tool is for educational purposes only and does not replace professional medical advice. Always follow your surgeon’s or doctor’s specific instructions.",
+          labels: {
+            stoolOutput: "Stool output",
+            softness: "Softness",
+            hardeningRisk: "Hardening risk",
+            stickiness: "Stickiness",
+          },
+          categoryAll: "All",
+          suitabilityAll: "All",
+          suitabilityLabels: [
+            "Excellent",
+            "Good",
+            "Acceptable",
+            "Poor",
+            "Very Poor",
+          ],
+        },
+        vi: {
+          title: "Tra cứu thực phẩm cho bệnh trĩ",
+          subtitle:
+            "Kiểm tra xem một loại thực phẩm có thể ảnh hưởng đến phân như thế nào sau phẫu thuật trĩ.",
+          infoBanner:
+            "Công cụ này tập trung vào lượng phân, độ mềm, nguy cơ bị khô cứng và độ dính của phân để giúp bạn chọn thực phẩm giảm đau khi đi tiêu.",
+          searchPlaceholder:
+            "Tìm theo tên hoặc nhóm thực phẩm (ví dụ: cá hồi, phở, trái cây)...",
+          clear: "Xoá",
+          filterCategory: "Lọc theo nhóm thực phẩm",
+          filterSuitability: "Lọc theo mức độ phù hợp",
+          loading: "Đang tải dữ liệu thực phẩm…",
+          noResults: "Không tìm thấy thực phẩm phù hợp.",
+          noResultsTip:
+            "Gợi ý: nới lỏng bộ lọc hoặc tìm theo nguyên liệu chính (ví dụ: 'cá', 'cơm', 'súp').",
+          resultsCount: (count) => `Hiển thị ${count} món.`,
+          footer:
+            "Công cụ này chỉ mang tính tham khảo, không thay thế ý kiến bác sĩ. Luôn làm theo hướng dẫn cụ thể của bác sĩ hoặc phẫu thuật viên.",
+          labels: {
+            stoolOutput: "Lượng phân",
+            softness: "Độ mềm",
+            hardeningRisk: "Nguy cơ bị khô cứng",
+            stickiness: "Độ dính / trơn",
+          },
+          categoryAll: "Tất cả",
+          suitabilityAll: "Tất cả",
+          suitabilityLabels: [
+            "Rất phù hợp",
+            "Phù hợp",
+            "Chấp nhận được",
+            "Hạn chế",
+            "Rất không phù hợp",
+          ],
+        },
+      };
+
+      // Localised category display names
+      const categoryNameMap = {
+        en: {
+          Fruit: "Fruit",
+          Grains: "Grains / Carbs",
+          Vegetable: "Vegetables",
+          Protein: "Protein",
+          Dairy: "Dairy",
+          Snack: "Snacks",
+          Drinks: "Drinks & Desserts",
+          Dish: "Mixed dishes",
+        },
+        vi: {
+          Fruit: "Trái cây",
+          Grains: "Ngũ cốc / Tinh bột",
+          Vegetable: "Rau củ",
+          Protein: "Đạm (thịt, cá, trứng, đậu)",
+          Dairy: "Sữa & sản phẩm từ sữa",
+          Snack: "Đồ ăn vặt / khô",
+          Drinks: "Thức uống & tráng miệng",
+          Dish: "Món ăn tổng hợp",
+        },
+      };
+
+      // Vietnamese food name mapping (you can extend this over time)
+      const foodNameMap = {
+        vi: {
+          // Fruits
+          Papaya: "Đu đủ",
+          "Mango (ripe)": "Xoài chín",
+          "Mango (green)": "Xoài xanh",
+          "Banana (ripe)": "Chuối chín",
+          "Banana (unripe)": "Chuối xanh",
+          "Apple (with skin)": "Táo (còn vỏ)",
+          "Apple (without skin)": "Táo (gọt vỏ)",
+          Pear: "Lê",
+          Watermelon: "Dưa hấu",
+          "Dragon fruit (white)": "Thanh long ruột trắng",
+          "Dragon fruit (red)": "Thanh long ruột đỏ",
+          "Kiwi (green)": "Kiwi xanh",
+          "Kiwi (yellow)": "Kiwi vàng",
+          Orange: "Cam",
+          Pineapple: "Dứa (thơm)",
+          Grapes: "Nho",
+          "Guava (with seeds)": "Ổi (có hạt)",
+          "Guava (seedless)": "Ổi (ít hạt / không hạt)",
+          Lychee: "Vải",
+          Longan: "Nhãn",
+          Rambutan: "Chôm chôm",
+          Mangosteen: "Măng cụt",
+          Durian: "Sầu riêng",
+          Jackfruit: "Mít",
+          Pomelo: "Bưởi",
+
+          // Grains / carbs
+          "White rice": "Cơm trắng",
+          "Brown rice": "Gạo lứt",
+          "Jasmine rice": "Gạo thơm Jasmine",
+          "Japanese rice": "Gạo Nhật",
+          "Sticky rice": "Xôi / gạo nếp",
+          Congee: "Cháo trắng",
+          "Rice vermicelli": "Bún",
+          "Pho noodles": "Bánh phở",
+          "Kway teow": "Hủ tiếu / phở xào bản to",
+          "Hokkien noodles": "Mì Hokkien",
+          "Yellow noodles": "Mì vàng / mì trứng",
+          "Instant noodles (fried)": "Mì gói (chiên)",
+          "Instant noodles (non-fried)": "Mì gói (không chiên)",
+          "Banh mi": "Bánh mì Việt Nam",
+          "White bread": "Bánh mì trắng",
+          "Whole wheat bread": "Bánh mì nguyên cám",
+          "Multigrain bread": "Bánh mì ngũ cốc",
+          Quinoa: "Hạt diêm mạch (quinoa)",
+          Barley: "Lúa mạch / bo bo",
+          "Rolled oats": "Yến mạch cán dẹt",
+          "Instant oats": "Yến mạch ăn liền",
+          "Chia seeds": "Hạt chia",
+          "Flax seeds": "Hạt lanh",
+          "Sweet potato": "Khoai lang",
+          "Korean sweet potato": "Khoai lang Hàn Quốc",
+          "Potato (boiled)": "Khoai tây luộc",
+          "Potato (fried)": "Khoai tây chiên",
+          Taro: "Khoai môn",
+          Yam: "Khoai sọ / khoai mỡ",
+          Corn: "Bắp (ngô)",
+
+          // Vegetables
+          Spinach: "Rau chân vịt (cải bó xôi)",
+          "Bok choy": "Cải thìa",
+          "Choy sum": "Cải ngọt",
+          "Kang kong": "Rau muống",
+          Broccoli: "Bông cải xanh",
+          Cauliflower: "Súp lơ trắng",
+          Cabbage: "Bắp cải",
+          Lettuce: "Xà lách",
+          Romaine: "Xà lách Romaine",
+          "Iceberg lettuce": "Xà lách Iceberg",
+          "Tomato (raw)": "Cà chua sống",
+          "Tomato (cooked)": "Cà chua nấu chín",
+          "Carrot (raw)": "Cà rốt sống",
+          "Carrot (steamed)": "Cà rốt hấp / luộc",
+          Pumpkin: "Bí đỏ",
+          "Winter melon": "Bí đao",
+          "Bitter gourd": "Khổ qua / mướp đắng",
+          "Long beans": "Đậu đũa",
+          "French beans": "Đậu cô ve",
+          Okra: "Đậu bắp",
+          Eggplant: "Cà tím",
+          Daikon: "Củ cải trắng",
+          Kimchi: "Kim chi",
+          Sauerkraut: "Dưa cải muối chua kiểu Đức",
+          "Mushroom (shiitake)": "Nấm hương / nấm đông cô",
+          "Mushroom (enoki)": "Nấm kim châm",
+          Onion: "Hành tây",
+          Garlic: "Tỏi",
+          Seaweed: "Rong biển",
+          "Bean sprouts": "Giá đỗ",
+
+          // Protein
+          "Chicken breast": "Ức gà",
+          "Chicken thigh": "Đùi gà",
+          "Chicken skin": "Da gà",
+          Seabass: "Cá vược / cá chẽm",
+          "Red snapper": "Cá hồng",
+          "Salmon (steamed)": "Cá hồi hấp",
+          "Salmon (raw)": "Cá hồi sống (sashimi)",
+          Tuna: "Cá ngừ",
+          Mackerel: "Cá thu",
+          "Sardines (water)": "Cá mòi hộp (ngâm nước)",
+          "Sardines (oil)": "Cá mòi hộp (ngâm dầu)",
+          "Pork lean": "Thịt heo nạc",
+          "Pork belly": "Ba rọi / ba chỉ heo",
+          "Char siu": "Thịt xá xíu",
+          "Roast pork": "Thịt heo quay",
+          "Beef steak": "Bít tết bò",
+          "Beef brisket": "Gân / nạm bò hầm",
+          "Pho brisket": "Thịt bò nạm trong phở",
+          Lamb: "Thịt cừu",
+          Duck: "Thịt vịt",
+          "Soft tofu": "Đậu phụ non",
+          "Firm tofu": "Đậu phụ cứng",
+          Tempeh: "Đậu nành lên men (tempeh)",
+          "Fish balls": "Cá viên",
+          "Fish cake": "Chả cá",
+          Prawn: "Tôm",
+          "Crab meat": "Thịt cua",
+          Squid: "Mực",
+          Spam: "Thịt hộp (Spam)",
+          "Soft-boiled egg": "Trứng luộc lòng đào",
+          "Hard-boiled egg": "Trứng luộc chín",
+          "Scrambled egg": "Trứng chiên ráo (scramble)",
+          "Fried egg": "Trứng ốp la",
+          "Century egg": "Trứng bách thảo",
+
+          // Dairy
+          "Fresh milk": "Sữa tươi",
+          "Lactose-free milk": "Sữa không lactose",
+          "Oat milk": "Sữa yến mạch",
+          "Soy milk": "Sữa đậu nành",
+          "Almond milk": "Sữa hạnh nhân",
+          Yogurt: "Sữa chua",
+          Yakult: "Sữa chua uống Yakult",
+          "Ice cream": "Kem",
+          "Cheddar cheese": "Phô mai Cheddar",
+          "String cheese": "Phô mai sợi",
+          "Whipped cream": "Kem tươi đánh bông",
+          Butter: "Bơ",
+          Margarine: "Bơ thực vật",
+          "Condensed milk": "Sữa đặc có đường",
+          "Evaporated milk": "Sữa cô đặc không đường",
+
+          // Snacks
+          Almonds: "Hạnh nhân",
+          Cashews: "Hạt điều",
+          Peanuts: "Đậu phộng / lạc",
+          Walnuts: "Óc chó",
+          "Sunflower seeds": "Hạt hướng dương",
+          "Potato chips": "Khoai tây chiên lát (snack)",
+          Popcorn: "Bắp rang",
+          "Seaweed snacks": "Rong biển ăn liền",
+          "Milk chocolate": "Socola sữa",
+          "Dark chocolate": "Socola đắng",
+          Mochi: "Bánh mochi",
+          "Rice crackers": "Bánh gạo",
+          "Cream crackers": "Bánh quy giòn",
+          "Digestive biscuits": "Bánh quy nguyên cám (digestive)",
+          "Marie biscuits": "Bánh quy Marie",
+          Granola: "Ngũ cốc granola",
+          "Trail mix": "Hỗn hợp hạt khô (trail mix)",
+          "Dried apricots": "Mơ khô",
+          "Dried figs": "Vả khô",
+          "Dried raisins": "Nho khô",
+          "Dried prunes": "Mận khô (prune)",
+          Cupcakes: "Bánh cupcake",
+          Doughnuts: "Bánh donut",
+          Waffles: "Bánh waffle",
+          Croissants: "Bánh sừng bò",
+
+          // Drinks & desserts
+          Water: "Nước lọc",
+          "Coconut water": "Nước dừa",
+          "Barley water": "Nước lúa mạch / nước bo bo",
+          "Chrysanthemum tea": "Trà hoa cúc",
+          "Green tea": "Trà xanh",
+          "Black tea": "Trà đen",
+          "Black coffee": "Cà phê đen",
+          "Milk tea": "Trà sữa",
+          "Bubble tea": "Trà sữa trân châu",
+          "Fruit smoothies": "Sinh tố trái cây",
+          "Orange juice": "Nước cam",
+          "Apple juice": "Nước táo",
+          "Sugarcane juice": "Nước mía",
+          "Tau huay": "Tàu hũ nước đường / đậu hũ non tráng miệng",
+          "Bird’s nest drink": "Nước yến",
+          "Herbal soup": "Canh / nước thuốc bắc",
+          "Chicken broth": "Nước dùng gà",
+          "Pork broth": "Nước dùng heo",
+          "Vegetable soup": "Canh rau",
+          "Bone broth": "Nước hầm xương",
+          "Agar jelly": "Thạch agar",
+          "Grass jelly": "Sương sáo / thạch đen",
+          "Sago dessert": "Chè trân châu / trân châu sago",
+          "Ice kachang": "Đá bào Ice kachang",
+          "Che ba mau": "Chè ba màu",
+
+          // Dishes
+          "Pho (full bowl)": "Phở bò (đầy đủ)",
+          "Bun thit nuong": "Bún thịt nướng",
+          "Com tam": "Cơm tấm",
+          "Mi quang": "Mì Quảng",
+          "Banh cuon": "Bánh cuốn",
+          "Banh uot": "Bánh ướt",
+          "Chicken rice": "Cơm gà Hải Nam",
+          Laksa: "Mì Laksa",
+          "Bak chor mee": "Mì thịt bằm (Bak chor mee)",
+          "Bak kut teh": "Sườn hầm thuốc bắc (Bak kut teh)",
+          "Char kway teow": "Hủ tiếu xào / char kway teow",
+          "Hokkien mee": "Mì Hokkien xào",
+          "Yong tau foo": "Yong tau foo (đậu nhồi thịt và rau)",
+          "Japanese curry rice": "Cơm cà ri Nhật",
+          "Sushi rice": "Cơm sushi",
+          Sashimi: "Cá sống sashimi",
+          Bibimbap: "Cơm trộn Hàn Quốc (bibimbap)",
+          Japchae: "Miến xào Hàn Quốc (japchae)",
+          "Miso soup": "Súp miso",
+          "Hotpot ingredients": "Nguyên liệu lẩu",
+          "Steamed bun": "Bánh bao chay / bánh bao trắng",
+          "Char siew bun": "Bánh bao xá xíu",
+          "Fried rice": "Cơm chiên",
+          "Claypot rice": "Cơm niêu / cơm thố",
+        },
+      };
+
+      const valueTranslations = {
+        vi: {
+          StoolOutput: {
+            "Very low": "Rất ít",
+            Low: "Ít",
+            Moderate: "Vừa",
+            High: "Nhiều",
+            "Very high": "Rất nhiều",
+          },
+          StoolSoftness: {
+            "Very soft": "Rất mềm",
+            Soft: "Mềm",
+            "Moderately soft": "Hơi mềm",
+            Hard: "Cứng",
+            "Very hard": "Rất cứng",
+          },
+          HardeningRisk: {
+            "Very low": "Rất thấp",
+            Low: "Thấp",
+            Moderate: "Trung bình",
+            High: "Cao",
+            "Very high": "Rất cao",
+          },
+          Stickiness: {
+            "Very smooth": "Rất trơn, dễ trôi",
+            Smooth: "Trơn, khá dễ trôi",
+            Neutral: "Bình thường",
+            Sticky: "Hơi dính",
+            "Very sticky": "Rất dính, dễ gây đau",
+          },
+          GlobalSuitabilityScore: {
+            Excellent: "Rất phù hợp",
+            Good: "Phù hợp",
+            Acceptable: "Chấp nhận được",
+            Poor: "Hạn chế",
+            "Very Poor": "Rất không phù hợp",
+          },
+        },
+      };
+
+      const recommendationTranslations = {
+        vi: {
+          "Generally excellent for soft stools; consume freely unless bloated.":
+            "Nhìn chung rất tốt để làm phân mềm; có thể dùng thường xuyên trừ khi bạn cảm thấy đầy hơi.",
+          "Can increase stool bulk; limit during recovery.":
+            "Có thể làm phân to và nhiều; nên hạn chế trong giai đoạn hồi phục.",
+          "Very gentle on digestion; highly recommended.":
+            "Rất nhẹ nhàng cho đường ruột; nên ưu tiên lựa chọn.",
+          "Safe in moderation; pair with fluids.":
+            "An toàn nếu dùng vừa phải; nên kết hợp với nhiều nước hoặc canh.",
+          "Raw textures may be irritating; cook until soft.":
+            "Ăn sống có thể gây cọ xát và khó chịu; nên nấu chín mềm trước khi ăn.",
+          "Good choice when cooked well.":
+            "Lựa chọn tốt nếu được nấu chín mềm.",
+          "Excellent; natural oils improve lubrication.":
+            "Rất tốt; chất béo tự nhiên giúp bôi trơn phân, giảm đau khi đi tiêu.",
+          "Low residue but may harden stools; combine with soups.":
+            "Ít bã nhưng dễ làm phân cứng; nên ăn kèm nhiều nước, canh hoặc rau mềm.",
+          "Generally softening; good addition unless lactose intolerant.":
+            "Thường giúp làm phân mềm; rất hữu ích trừ khi bạn không dung nạp lactose.",
+          "Often constipating; minimize during recovery.":
+            "Dễ gây táo bón; nên hạn chế tối đa trong thời gian hồi phục.",
+          "Hydrating and softening; excellent support for recovery.":
+            "Giúp bổ sung nước và làm phân mềm; rất hỗ trợ cho quá trình hồi phục.",
+          "Real-life stool effect varies; consume small portions and monitor.":
+            "Ảnh hưởng lên phân thay đổi theo từng người; nên ăn lượng nhỏ và theo dõi phản ứng.",
+          "Safe in moderation.":
+            "An toàn nếu dùng vừa phải; quan sát thêm phản ứng cơ thể.",
+        },
+      };
+
       function normalize(str) {
         return (str || "").toString().toLowerCase().trim();
       }
@@ -414,24 +850,60 @@
       function suitabilityClass(label) {
         if (!label) return "";
         const x = label.toLowerCase();
-        if (x.includes("excellent")) return "excellent";
-        if (x.includes("good")) return "good";
-        if (x.includes("acceptable")) return "acceptable";
-        if (x.includes("very poor")) return "very-poor";
-        if (x.includes("poor")) return "poor";
+        if (x.includes("excellent") || x.includes("rất phù hợp"))
+          return "excellent";
+        if (x.includes("good") || x.includes("phù hợp")) return "good";
+        if (x.includes("acceptable") || x.includes("chấp nhận được"))
+          return "acceptable";
+        if (x.includes("very poor") || x.includes("rất không phù hợp"))
+          return "very-poor";
+        if (x.includes("poor") || x.includes("hạn chế")) return "poor";
         return "";
+      }
+
+      function translateMetricValue(category, value) {
+        if (currentLang === "en") return value || "";
+        const map = valueTranslations.vi[category] || {};
+        return map[value] || value || "";
+      }
+
+      function translateSuitability(value) {
+        if (currentLang === "en") return value || "";
+        const map = valueTranslations.vi.GlobalSuitabilityScore || {};
+        return map[value] || value || "";
+      }
+
+      function translateRecommendation(text) {
+        if (currentLang === "en") return text || "";
+        const map = recommendationTranslations.vi;
+        return map[text] || text || "";
+      }
+
+      function getCategoryDisplayName(rawCategory) {
+        const map = categoryNameMap[currentLang] || {};
+        return map[rawCategory] || rawCategory || "";
+      }
+
+      function getFoodDisplayName(rawName) {
+        if (currentLang === "vi") {
+          return foodNameMap.vi[rawName] || rawName;
+        }
+        return rawName;
       }
 
       function renderCategoryPills() {
         const categories = Array.from(
           new Set(allFoods.map((f) => f.Category))
         ).sort();
+        const labelAll = uiText[currentLang].categoryAll;
         const all = ["All", ...categories];
         categoryPills.innerHTML = "";
 
         all.forEach((cat) => {
           const btn = document.createElement("button");
-          btn.textContent = cat;
+          const isAll = cat === "All";
+          const displayLabel = isAll ? labelAll : getCategoryDisplayName(cat);
+          btn.textContent = displayLabel;
           btn.className = "pill" + (cat === activeCategory ? " active" : "");
           const dot = document.createElement("span");
           dot.className = "dot";
@@ -448,7 +920,7 @@
       }
 
       function renderSuitabilityPills() {
-        const labels = [
+        const labelsEn = [
           "All",
           "Excellent",
           "Good",
@@ -456,19 +928,24 @@
           "Poor",
           "Very Poor",
         ];
+        const labels = uiText[currentLang].suitabilityLabels;
         suitabilityPills.innerHTML = "";
 
-        labels.forEach((label) => {
+        labelsEn.forEach((labelEn, idx) => {
+          const isAll = labelEn === "All";
           const btn = document.createElement("button");
-          btn.textContent = label;
+          const displayLabel = isAll
+            ? uiText[currentLang].suitabilityAll
+            : labels[idx - 1];
+          btn.textContent = displayLabel;
           btn.className =
-            "pill" + (label === activeSuitability ? " active" : "");
+            "pill" + (labelEn === activeSuitability ? " active" : "");
           const dot = document.createElement("span");
           dot.className = "dot";
           btn.prepend(dot);
 
           btn.addEventListener("click", () => {
-            activeSuitability = label;
+            activeSuitability = labelEn;
             renderSuitabilityPills();
             renderResults();
           });
@@ -494,31 +971,37 @@
         }
 
         if (query) {
-          filtered = filtered.filter(
-            (f) =>
-              normalize(f.Food).includes(query) ||
-              normalize(f.Category).includes(query)
-          );
+          filtered = filtered.filter((f) => {
+            const rawName = normalize(f.Food);
+            const vnName = normalize(foodNameMap.vi[f.Food] || "");
+            const catName = normalize(getCategoryDisplayName(f.Category));
+            return (
+              rawName.includes(query) ||
+              vnName.includes(query) ||
+              catName.includes(query)
+            );
+          });
         }
 
         resultsDiv.innerHTML = "";
 
         if (!allFoods.length) {
-          resultsCount.textContent = "Loading food database…";
+          resultsCount.textContent = uiText[currentLang].loading;
           return;
         }
 
         if (!filtered.length) {
-          resultsCount.textContent = "No foods found.";
+          resultsCount.textContent = uiText[currentLang].noResults;
           const msg = document.createElement("div");
           msg.className = "no-results";
-          msg.textContent =
-            "Tip: relax filters or search by main ingredient (e.g. 'fish', 'rice', 'soup').";
+          msg.textContent = uiText[currentLang].noResultsTip;
           resultsDiv.appendChild(msg);
           return;
         }
 
-        resultsCount.textContent = `Showing ${filtered.length} item(s).`;
+        resultsCount.textContent = uiText[currentLang].resultsCount(
+          filtered.length
+        );
 
         filtered.forEach((f) => {
           const card = document.createElement("div");
@@ -528,9 +1011,9 @@
           header.className = "card-header";
 
           const left = document.createElement("div");
-          const foodName = document.createElement("div");
-          foodName.className = "food-name";
-          foodName.textContent = f.Food;
+          const foodNameEl = document.createElement("div");
+          foodNameEl.className = "food-name";
+          foodNameEl.textContent = getFoodDisplayName(f.Food);
 
           const category = document.createElement("div");
           category.className = "category-tag";
@@ -538,17 +1021,19 @@
           catDot.className = "dot";
           category.appendChild(catDot);
           const catText = document.createElement("span");
-          catText.textContent = f.Category;
+          catText.textContent = getCategoryDisplayName(f.Category);
           category.appendChild(catText);
 
-          left.appendChild(foodName);
+          left.appendChild(foodNameEl);
           left.appendChild(category);
 
           const right = document.createElement("div");
           const badge = document.createElement("div");
-          const label = f.GlobalSuitabilityScore || "";
-          badge.className = "badge " + suitabilityClass(label);
-          badge.textContent = label || "Not rated";
+          const rawLabel = f.GlobalSuitabilityScore || "";
+          const label = translateSuitability(rawLabel);
+          badge.className = "badge " + suitabilityClass(rawLabel || label);
+          badge.textContent =
+            label || (currentLang === "en" ? "Not rated" : "Chưa đánh giá");
           right.appendChild(badge);
 
           header.appendChild(left);
@@ -558,39 +1043,57 @@
           const grid = document.createElement("div");
           grid.className = "grid";
 
-          function addMetric(labelText, valueText) {
+          function addMetric(labelKey, valueRaw, metricCategoryKey) {
             const block = document.createElement("div");
             block.className = "metric-block";
 
             const l = document.createElement("div");
             l.className = "label";
-            l.textContent = labelText;
+            l.textContent = uiText[currentLang].labels[labelKey];
 
             const v = document.createElement("div");
             v.className = "value";
-            v.textContent = valueText || "—";
+            v.textContent = translateMetricValue(metricCategoryKey, valueRaw);
 
             block.appendChild(l);
             block.appendChild(v);
             grid.appendChild(block);
           }
 
-          addMetric("Stool output", f.StoolOutput);
-          addMetric("Softness", f.StoolSoftness);
-          addMetric("Hardening risk", f.HardeningRisk);
-          addMetric("Stickiness", f.Stickiness);
+          addMetric("stoolOutput", f.StoolOutput, "StoolOutput");
+          addMetric("softness", f.StoolSoftness, "StoolSoftness");
+          addMetric("hardeningRisk", f.HardeningRisk, "HardeningRisk");
+          addMetric("stickiness", f.Stickiness, "Stickiness");
 
           card.appendChild(grid);
 
           if (f.Recommendation) {
             const rec = document.createElement("div");
             rec.className = "recommendation";
-            rec.textContent = f.Recommendation;
+            rec.textContent = translateRecommendation(f.Recommendation);
             card.appendChild(rec);
           }
 
           resultsDiv.appendChild(card);
         });
+      }
+
+      function applyLanguage() {
+        const t = uiText[currentLang];
+        document.getElementById("titleText").textContent = t.title;
+        document.getElementById("subtitleText").textContent = t.subtitle;
+        document.getElementById("infoBannerText").textContent = t.infoBanner;
+        searchInput.placeholder = t.searchPlaceholder;
+        clearBtn.textContent = t.clear;
+        document.getElementById("categoryFilterLabel").textContent =
+          t.filterCategory;
+        document.getElementById("suitabilityFilterLabel").textContent =
+          t.filterSuitability;
+        document.getElementById("footerText").textContent = t.footer;
+
+        renderCategoryPills();
+        renderSuitabilityPills();
+        renderResults();
       }
 
       function loadCsv() {
@@ -618,7 +1121,10 @@
             renderResults();
           },
           error: function (err) {
-            resultsCount.textContent = "Error loading CSV: " + err.message;
+            resultsCount.textContent =
+              (currentLang === "en"
+                ? "Error loading CSV: "
+                : "Lỗi khi tải dữ liệu: ") + err.message;
           },
         });
       }
@@ -629,6 +1135,20 @@
         searchInput.value = "";
         renderResults();
         searchInput.focus();
+      });
+
+      document.getElementById("btnEn").addEventListener("click", () => {
+        currentLang = "en";
+        document.getElementById("btnEn").classList.add("active");
+        document.getElementById("btnVi").classList.remove("active");
+        applyLanguage();
+      });
+
+      document.getElementById("btnVi").addEventListener("click", () => {
+        currentLang = "vi";
+        document.getElementById("btnVi").classList.add("active");
+        document.getElementById("btnEn").classList.remove("active");
+        applyLanguage();
       });
 
       loadCsv();
