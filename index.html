@@ -5,261 +5,410 @@
     <title>Hemorrhoid Diet Lookup</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Mobile-friendly styling -->
     <style>
       :root {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        color-scheme: light dark;
+        --bg: #f3f4f6;
+        --card-bg: #ffffff;
+        --border-subtle: #e5e7eb;
+        --border-strong: #cbd5f5;
+        --text-main: #111827;
+        --text-muted: #6b7280;
+        --text-soft: #9ca3af;
+        --pill-bg: #eef2ff;
+        --pill-active-bg: #4f46e5;
+        --pill-active-text: #f9fafb;
+
+        --accent-excellent: #16a34a;
+        --accent-good: #22c55e;
+        --accent-acceptable: #ca8a04;
+        --accent-poor: #f97316;
+        --accent-very-poor: #ef4444;
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
         margin: 0;
         padding: 0;
-        background: #0f172a;
-        color: #e5e7eb;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: radial-gradient(
+          circle at top left,
+          #e0f2fe,
+          #eef2ff 30%,
+          #f9fafb 70%
+        );
+        color: var(--text-main);
         display: flex;
         justify-content: center;
       }
 
       .app {
         width: 100%;
-        max-width: 640px;
+        max-width: 720px;
         padding: 16px;
-        box-sizing: border-box;
+      }
+
+      header {
+        margin-bottom: 16px;
       }
 
       h1 {
-        font-size: 1.4rem;
-        margin: 0 0 4px;
+        font-size: 1.5rem;
+        margin: 0;
+        color: #111827;
+        letter-spacing: 0.01em;
       }
 
       .subtitle {
-        font-size: 0.85rem;
-        color: #9ca3af;
-        margin-bottom: 16px;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-top: 4px;
+      }
+
+      .info-banner {
+        margin-top: 10px;
+        font-size: 0.75rem;
+        padding: 8px 10px;
+        border-radius: 10px;
+        border: 1px solid #e5e7eb;
+        background: #f9fafb;
+        color: var(--text-soft);
+      }
+
+      .search-area {
+        margin-top: 16px;
+        padding: 12px;
+        border-radius: 16px;
+        background: rgba(255, 255, 255, 0.85);
+        border: 1px solid var(--border-subtle);
+        backdrop-filter: blur(12px);
       }
 
       .search-box {
         position: relative;
-        margin-bottom: 12px;
+        margin-bottom: 10px;
       }
 
       .search-input {
         width: 100%;
-        padding: 12px 40px 12px 12px;
+        padding: 12px 80px 12px 12px;
         border-radius: 999px;
-        border: none;
+        border: 1px solid #d1d5db;
         outline: none;
         font-size: 1rem;
-        box-sizing: border-box;
-        background: #020617;
-        color: #e5e7eb;
-        box-shadow: 0 0 0 1px #1f2937;
+        color: var(--text-main);
+        background: #f9fafb;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease,
+          background 0.15s ease;
       }
 
       .search-input::placeholder {
-        color: #6b7280;
+        color: #9ca3af;
+      }
+
+      .search-input:focus {
+        border-color: #4f46e5;
+        background: #ffffff;
+        box-shadow: 0 0 0 1px rgba(79, 70, 229, 0.2),
+          0 6px 14px rgba(15, 23, 42, 0.08);
       }
 
       .clear-btn {
         position: absolute;
-        right: 10px;
+        right: 8px;
         top: 50%;
         transform: translateY(-50%);
         border: none;
         border-radius: 999px;
-        padding: 4px 8px;
-        font-size: 0.75rem;
-        background: #111827;
-        color: #9ca3af;
+        padding: 6px 12px;
+        font-size: 0.8rem;
+        background: #e5e7eb;
+        color: #374151;
         cursor: pointer;
+        transition: background 0.15s ease, color 0.15s ease;
+      }
+
+      .clear-btn:hover {
+        background: #d1d5db;
+      }
+
+      .filter-label {
+        font-size: 0.75rem;
+        color: var(--text-soft);
+        margin: 4px 0 2px;
       }
 
       .pill-row {
         display: flex;
         flex-wrap: wrap;
         gap: 6px;
-        margin-bottom: 8px;
+        margin-top: 4px;
+        margin-bottom: 6px;
       }
 
       .pill {
         font-size: 0.75rem;
         border-radius: 999px;
-        padding: 4px 10px;
-        background: #020617;
-        border: 1px solid #1f2937;
-        color: #9ca3af;
+        padding: 6px 12px;
+        border: none;
+        background: var(--pill-bg);
+        color: #4338ca;
         cursor: pointer;
         white-space: nowrap;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        transition: background 0.15s ease, color 0.15s ease,
+          transform 0.05s ease;
+      }
+
+      .pill span.dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: #a5b4fc;
       }
 
       .pill.active {
-        background: #10b981;
-        border-color: #10b981;
-        color: #022c22;
+        background: var(--pill-active-bg);
+        color: var(--pill-active-text);
+      }
+
+      .pill.active span.dot {
+        background: #c7d2fe;
+      }
+
+      .pill:active {
+        transform: scale(0.97);
       }
 
       .results-count {
         font-size: 0.8rem;
-        color: #9ca3af;
-        margin: 4px 0 10px;
+        color: var(--text-soft);
+        margin: 8px 0 6px;
+      }
+
+      .results {
+        margin-top: 8px;
       }
 
       .card {
-        background: #020617;
-        border-radius: 14px;
-        padding: 12px 14px;
+        background: var(--card-bg);
+        border-radius: 18px;
+        padding: 14px 14px 12px;
         margin-bottom: 10px;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-        border: 1px solid #1f2937;
+        border: 1px solid var(--border-subtle);
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
       }
 
       .card-header {
         display: flex;
         justify-content: space-between;
-        gap: 8px;
-        align-items: baseline;
-        margin-bottom: 4px;
+        gap: 12px;
+        align-items: flex-start;
       }
 
       .food-name {
         font-size: 1rem;
         font-weight: 600;
+        color: #0f172a;
       }
 
       .category-tag {
-        font-size: 0.7rem;
-        padding: 3px 7px;
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        margin-top: 3px;
+        padding: 2px 8px;
         border-radius: 999px;
-        background: #111827;
-        color: #9ca3af;
+        font-size: 0.7rem;
+        background: #eff6ff;
+        color: #1d4ed8;
+      }
+
+      .category-tag span.dot {
+        width: 6px;
+        height: 6px;
+        border-radius: 999px;
+        background: #60a5fa;
       }
 
       .badge {
         font-size: 0.75rem;
-        padding: 3px 7px;
+        padding: 4px 10px;
         border-radius: 999px;
         font-weight: 600;
+        border: 1px solid transparent;
+        white-space: nowrap;
       }
 
       .badge.excellent {
-        background: #10b98133;
-        color: #6ee7b7;
-        border: 1px solid #10b981;
+        background: #ecfdf3;
+        border-color: #bbf7d0;
+        color: var(--accent-excellent);
       }
 
       .badge.good {
-        background: #22c55e1f;
-        color: #bbf7d0;
-        border: 1px solid #22c55e;
+        background: #ecfdf3;
+        border-color: #bbf7d0;
+        color: var(--accent-good);
       }
 
       .badge.acceptable {
-        background: #facc1514;
-        color: #facc15;
-        border: 1px solid #facc15;
+        background: #fef9c3;
+        border-color: #facc15;
+        color: #854d0e;
       }
 
       .badge.poor {
-        background: #f9731614;
-        color: #fdba74;
-        border: 1px solid #f97316;
+        background: #fff7ed;
+        border-color: #fed7aa;
+        color: #9a3412;
       }
 
       .badge.very-poor {
-        background: #ef444414;
-        color: #fecaca;
-        border: 1px solid #ef4444;
+        background: #fef2f2;
+        border-color: #fecaca;
+        color: #b91c1c;
       }
 
       .grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 4px 10px;
-        margin-top: 6px;
+        gap: 6px 16px;
+        margin-top: 10px;
         margin-bottom: 6px;
+        padding-top: 8px;
+        border-top: 1px dashed #e5e7eb;
+      }
+
+      .metric-block {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
       }
 
       .label {
         font-size: 0.75rem;
-        color: #9ca3af;
+        color: var(--text-soft);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
       }
 
       .value {
-        font-size: 0.85rem;
-        color: #e5e7eb;
+        font-size: 0.9rem;
+        color: #111827;
+        font-weight: 500;
       }
 
       .recommendation {
         font-size: 0.8rem;
-        color: #d1d5db;
-        margin-top: 4px;
+        color: var(--text-muted);
+        margin-top: 8px;
+        padding-top: 8px;
+        border-top: 1px dashed #e5e7eb;
+        line-height: 1.4;
       }
 
       .no-results {
         font-size: 0.9rem;
-        color: #9ca3af;
-        margin-top: 10px;
+        color: var(--text-muted);
+        margin-top: 12px;
       }
 
       footer {
-        margin-top: 16px;
-        font-size: 0.7rem;
-        color: #6b7280;
+        margin-top: 18px;
+        font-size: 0.72rem;
+        color: var(--text-soft);
         text-align: center;
+        padding-bottom: 8px;
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          padding: 12px 12px 10px;
+        }
+        .grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .search-area {
+          padding: 10px;
+        }
       }
     </style>
 
-    <!-- CSV parser -->
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
   </head>
   <body>
     <div class="app">
-      <h1>Hemorrhoid Diet Lookup</h1>
-      <div class="subtitle">
-        Search a food to see its stool effect and suitability after hemorrhoid
-        surgery.
-      </div>
+      <header>
+        <h1>Hemorrhoid Diet Lookup</h1>
+        <div class="subtitle">
+          Check how a food is likely to affect your stool after hemorrhoid
+          surgery.
+        </div>
+        <div class="info-banner">
+          This tool focuses on stool output, softness, hardening risk, and
+          stickiness to help you choose foods that minimise pain when passing
+          motion.
+        </div>
+      </header>
 
-      <div class="search-box">
-        <input
-          id="search"
-          class="search-input"
-          type="text"
-          placeholder="Search by food name or category (e.g. salmon, pho, fruit)..."
-        />
-        <button class="clear-btn" id="clearBtn">Clear</button>
-      </div>
+      <section class="search-area">
+        <div class="search-box">
+          <input
+            id="search"
+            class="search-input"
+            type="text"
+            autocomplete="off"
+            placeholder="Search by food name or category (e.g. salmon, pho, fruit)..."
+          />
+          <button class="clear-btn" id="clearBtn">Clear</button>
+        </div>
 
-      <div class="pill-row" id="categoryPills">
-        <!-- Category pills will be injected here -->
-      </div>
+        <div class="filter-label">Filter by category</div>
+        <div class="pill-row" id="categoryPills">
+          <!-- Category pills injected here -->
+        </div>
+
+        <div class="filter-label" style="margin-top: 6px">
+          Filter by suitability
+        </div>
+        <div class="pill-row" id="suitabilityPills">
+          <!-- Suitability pills injected here -->
+        </div>
+      </section>
 
       <div class="results-count" id="resultsCount">Loading food database…</div>
 
-      <div id="results"></div>
+      <div class="results" id="results"></div>
 
       <footer>
-        This tool is informational only and does not replace medical advice.<br />
-        Always follow your surgeon’s or doctor’s instructions.
+        This tool is for educational purposes only and does not replace
+        professional medical advice. Always follow your surgeon’s or doctor’s
+        specific instructions.
       </footer>
     </div>
 
     <script>
-      const CSV_FILE = "hemorrhoid_food_with_global_score.csv"; // place this file next to index.html
+      const CSV_FILE = "hemorrhoid_food_with_global_score.csv";
 
       let allFoods = [];
       let activeCategory = "All";
+      let activeSuitability = "All";
 
       const searchInput = document.getElementById("search");
       const resultsDiv = document.getElementById("results");
       const resultsCount = document.getElementById("resultsCount");
       const categoryPills = document.getElementById("categoryPills");
+      const suitabilityPills = document.getElementById("suitabilityPills");
       const clearBtn = document.getElementById("clearBtn");
 
       function normalize(str) {
-        return (str || "").toString().toLowerCase();
+        return (str || "").toString().toLowerCase().trim();
       }
 
       function suitabilityClass(label) {
@@ -268,8 +417,8 @@
         if (x.includes("excellent")) return "excellent";
         if (x.includes("good")) return "good";
         if (x.includes("acceptable")) return "acceptable";
-        if (x.includes("poor") && !x.includes("very")) return "poor";
         if (x.includes("very poor")) return "very-poor";
+        if (x.includes("poor")) return "poor";
         return "";
       }
 
@@ -279,16 +428,52 @@
         ).sort();
         const all = ["All", ...categories];
         categoryPills.innerHTML = "";
+
         all.forEach((cat) => {
           const btn = document.createElement("button");
           btn.textContent = cat;
           btn.className = "pill" + (cat === activeCategory ? " active" : "");
+          const dot = document.createElement("span");
+          dot.className = "dot";
+          btn.prepend(dot);
+
           btn.addEventListener("click", () => {
             activeCategory = cat;
             renderCategoryPills();
             renderResults();
           });
+
           categoryPills.appendChild(btn);
+        });
+      }
+
+      function renderSuitabilityPills() {
+        const labels = [
+          "All",
+          "Excellent",
+          "Good",
+          "Acceptable",
+          "Poor",
+          "Very Poor",
+        ];
+        suitabilityPills.innerHTML = "";
+
+        labels.forEach((label) => {
+          const btn = document.createElement("button");
+          btn.textContent = label;
+          btn.className =
+            "pill" + (label === activeSuitability ? " active" : "");
+          const dot = document.createElement("span");
+          dot.className = "dot";
+          btn.prepend(dot);
+
+          btn.addEventListener("click", () => {
+            activeSuitability = label;
+            renderSuitabilityPills();
+            renderResults();
+          });
+
+          suitabilityPills.appendChild(btn);
         });
       }
 
@@ -298,6 +483,14 @@
 
         if (activeCategory !== "All") {
           filtered = filtered.filter((f) => f.Category === activeCategory);
+        }
+
+        if (activeSuitability !== "All") {
+          filtered = filtered.filter(
+            (f) =>
+              (f.GlobalSuitabilityScore || "").toLowerCase() ===
+              activeSuitability.toLowerCase()
+          );
         }
 
         if (query) {
@@ -316,11 +509,11 @@
         }
 
         if (!filtered.length) {
-          resultsCount.textContent = "No foods found. Try a different keyword.";
+          resultsCount.textContent = "No foods found.";
           const msg = document.createElement("div");
           msg.className = "no-results";
           msg.textContent =
-            "Tip: search by main ingredient (e.g. 'fish', 'rice', 'soup').";
+            "Tip: relax filters or search by main ingredient (e.g. 'fish', 'rice', 'soup').";
           resultsDiv.appendChild(msg);
           return;
         }
@@ -341,7 +534,12 @@
 
           const category = document.createElement("div");
           category.className = "category-tag";
-          category.textContent = f.Category;
+          const catDot = document.createElement("span");
+          catDot.className = "dot";
+          category.appendChild(catDot);
+          const catText = document.createElement("span");
+          catText.textContent = f.Category;
+          category.appendChild(catText);
 
           left.appendChild(foodName);
           left.appendChild(category);
@@ -350,7 +548,7 @@
           const badge = document.createElement("div");
           const label = f.GlobalSuitabilityScore || "";
           badge.className = "badge " + suitabilityClass(label);
-          badge.textContent = label || "Unknown";
+          badge.textContent = label || "Not rated";
           right.appendChild(badge);
 
           header.appendChild(left);
@@ -360,30 +558,36 @@
           const grid = document.createElement("div");
           grid.className = "grid";
 
-          function addRow(labelText, valueText) {
-            const wrapper = document.createElement("div");
+          function addMetric(labelText, valueText) {
+            const block = document.createElement("div");
+            block.className = "metric-block";
+
             const l = document.createElement("div");
             l.className = "label";
             l.textContent = labelText;
+
             const v = document.createElement("div");
             v.className = "value";
             v.textContent = valueText || "—";
-            wrapper.appendChild(l);
-            wrapper.appendChild(v);
-            grid.appendChild(wrapper);
+
+            block.appendChild(l);
+            block.appendChild(v);
+            grid.appendChild(block);
           }
 
-          addRow("Stool output", f.StoolOutput);
-          addRow("Softness", f.StoolSoftness);
-          addRow("Hardening risk", f.HardeningRisk);
-          addRow("Stickiness", f.Stickiness);
+          addMetric("Stool output", f.StoolOutput);
+          addMetric("Softness", f.StoolSoftness);
+          addMetric("Hardening risk", f.HardeningRisk);
+          addMetric("Stickiness", f.Stickiness);
 
           card.appendChild(grid);
 
-          const rec = document.createElement("div");
-          rec.className = "recommendation";
-          rec.textContent = f.Recommendation || "";
-          card.appendChild(rec);
+          if (f.Recommendation) {
+            const rec = document.createElement("div");
+            rec.className = "recommendation";
+            rec.textContent = f.Recommendation;
+            card.appendChild(rec);
+          }
 
           resultsDiv.appendChild(card);
         });
@@ -395,18 +599,22 @@
           header: true,
           skipEmptyLines: true,
           complete: function (results) {
-            allFoods = results.data.map((row) => ({
-              Category: row.Category || "",
-              Food: row.Food || "",
-              StoolOutput: row.StoolOutput || "",
-              StoolSoftness: row.StoolSoftness || "",
-              HardeningRisk: row.HardeningRisk || "",
-              Stickiness: row.Stickiness || "",
-              Recommendation: row.Recommendation || "",
-              GlobalSuitabilityScore:
-                row.GlobalSuitabilityScore || row.GlobalSuitability || "",
-            }));
+            allFoods = results.data
+              .map((row) => ({
+                Category: row.Category || "",
+                Food: row.Food || "",
+                StoolOutput: row.StoolOutput || "",
+                StoolSoftness: row.StoolSoftness || "",
+                HardeningRisk: row.HardeningRisk || "",
+                Stickiness: row.Stickiness || "",
+                Recommendation: row.Recommendation || "",
+                GlobalSuitabilityScore:
+                  row.GlobalSuitabilityScore || row.GlobalSuitability || "",
+              }))
+              .filter((f) => f.Food);
+
             renderCategoryPills();
+            renderSuitabilityPills();
             renderResults();
           },
           error: function (err) {
@@ -415,10 +623,7 @@
         });
       }
 
-      // Event listeners
-      searchInput.addEventListener("input", () => {
-        renderResults();
-      });
+      searchInput.addEventListener("input", renderResults);
 
       clearBtn.addEventListener("click", () => {
         searchInput.value = "";
@@ -426,7 +631,6 @@
         searchInput.focus();
       });
 
-      // Init
       loadCsv();
     </script>
   </body>
