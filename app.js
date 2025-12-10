@@ -11,7 +11,13 @@ const CSV_FILE = "hemorrhoid_food_with_global_score.csv";
 let allFoods = [];
 let activeCategory = "All";
 let activeSuitability = "All";
-let currentLang = "en";
+
+// Get language from URL or default to 'en'
+const urlParams = new URLSearchParams(globalThis.location.search);
+let currentLang = urlParams.get("lang") || "en";
+if (!["en", "vi"].includes(currentLang)) {
+  currentLang = "en";
+}
 
 const searchInput = document.getElementById("search");
 const resultsDiv = document.getElementById("results");
@@ -22,6 +28,12 @@ const clearBtn = document.getElementById("clearBtn");
 
 function normalize(str) {
   return (str || "").toString().toLowerCase().trim();
+}
+
+function updateURLLanguage(lang) {
+  const url = new URL(globalThis.location);
+  url.searchParams.set("lang", lang);
+  globalThis.history.pushState({}, "", url);
 }
 
 function suitabilityClass(label) {
@@ -305,6 +317,7 @@ clearBtn.addEventListener("click", () => {
 
 document.getElementById("btnEn").addEventListener("click", () => {
   currentLang = "en";
+  updateURLLanguage("en");
   document.getElementById("btnEn").classList.add("active");
   document.getElementById("btnVi").classList.remove("active");
   applyLanguage();
@@ -312,11 +325,21 @@ document.getElementById("btnEn").addEventListener("click", () => {
 
 document.getElementById("btnVi").addEventListener("click", () => {
   currentLang = "vi";
+  updateURLLanguage("vi");
   document.getElementById("btnVi").classList.add("active");
   document.getElementById("btnEn").classList.remove("active");
   applyLanguage();
 });
 
 // Init
+// Set initial button state based on URL language
+if (currentLang === "vi") {
+  document.getElementById("btnVi").classList.add("active");
+  document.getElementById("btnEn").classList.remove("active");
+} else {
+  document.getElementById("btnEn").classList.add("active");
+  document.getElementById("btnVi").classList.remove("active");
+}
+
 applyLanguage();
 loadCsv();
