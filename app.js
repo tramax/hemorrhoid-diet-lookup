@@ -311,4 +311,5 @@ document.getElementById("btnVi").addEventListener("click", () => {
 });
 
 // Init
+applyLanguage();
 loadCsv();
