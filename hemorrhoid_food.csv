@@ -84,40 +84,40 @@ Vegetable,Onion,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooke
 Vegetable,Garlic,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
 Vegetable,Seaweed,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
 Vegetable,Bean sprouts,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Protein,Chicken breast,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Chicken thigh,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Chicken skin,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Seabass,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Red snapper,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Salmon (steamed),Very low,Soft,High,Smooth,Excellent; natural oils improve lubrication.,3.75,Acceptable
-Protein,Salmon (raw),Very low,Soft,High,Smooth,Excellent; natural oils improve lubrication.,3.75,Acceptable
-Protein,Tuna,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Mackerel,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Sardines (water),Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Sardines (oil),Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Pork lean,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Pork belly,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Char siu,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Roast pork,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Beef steak,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Beef brisket,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Pho brisket,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Lamb,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Duck,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Soft tofu,Very low,Soft,High,Smooth,Low residue but may harden stools; combine with soups.,3.75,Acceptable
-Protein,Firm tofu,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Tempeh,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Fish balls,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Fish cake,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Prawn,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Crab meat,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Squid,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Spam,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Soft-boiled egg,Very low,Soft,High,Smooth,Low residue but may harden stools; combine with soups.,3.75,Acceptable
-Protein,Hard-boiled egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Scrambled egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Fried egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
-Protein,Century egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Chicken breast,Low,Moderately soft,Moderate,Neutral,Lean and soft when cooked gently; chew well and avoid very dry versions.,2.75,Good
+Protein,Chicken thigh,Moderate,Moderately soft,Moderate,Neutral,Softer cut with more fat; fine in small portions if cooked tender.,2.75,Acceptable
+Protein,Chicken skin,Low,Moderately soft,Moderate,Sticky,Very fatty; may lubricate stool but can cause discomfort if eaten in large amounts.,2.75,Acceptable
+Protein,Seabass,Low,Soft,Low,Smooth,Soft white fish; easy to digest and gentle on stool.,2.75,Excellent
+Protein,Red snapper,Low,Soft,Low,Smooth,Soft white fish; easy to digest and gentle on stool.,2.75,Excellent
+Protein,Salmon (steamed),Low,Soft,Low,Smooth,Oily fish with soft texture; natural oils help stool lubrication.,3.75,Good
+Protein,Salmon (raw),Low,Soft,Low,Smooth,Soft but raw; avoid if your doctor advises against raw foods during recovery.,3.75,Acceptable
+Protein,Tuna,Low,Moderately soft,Moderate,Neutral,Can be a bit dry; take with broth or sauce and chew well.,2.75,Acceptable
+Protein,Mackerel,Low,Soft,Low,Smooth,Oily fish; can help keep stool from becoming too dry.,2.75,Good
+Protein,Sardines (water),Low,Soft,Low,Smooth,Soft oily fish; useful in small portions.,2.75,Good
+Protein,Sardines (oil),Low,Soft,Moderate,Sticky,Oily and rich; may cause discomfort in large portions.,2.75,Acceptable
+Protein,Pork lean,Moderate,Moderately soft,Moderate,Neutral,Lean red meat; choose braised or stewed versions and chew well.,2.75,Acceptable
+Protein,Pork belly,Moderate,Moderately soft,Moderate,Neutral,Fat can lubricate stool but is heavy; use small portions.,2.75,Acceptable
+Protein,Char siu,Moderate,Hard,High,Sticky,"Sweet roasted pork; can be dry and sticky, so limit during recovery.",2.75,Poor
+Protein,Roast pork,Moderate,Hard,High,Sticky,"Crispy, fatty and salty; may worsen stool stickiness.",2.75,Poor
+Protein,Beef steak,High,Hard,Very high,Sticky,Tough red meat; can be hard to digest and may worsen pain when passing stool.,2.75,Very Poor
+Protein,Beef brisket,Moderate,Moderately soft,Moderate,Neutral,Slow-cooked brisket has softer texture; better than steak but still red meat.,2.75,Acceptable
+Protein,Pho brisket,Moderate,Soft,Low,Smooth,Served in broth and cooked soft; generally gentle if portion is moderate.,2.75,Good
+Protein,Lamb,High,Hard,High,Sticky,Rich red meat that can be heavy and harder to digest; limit during recovery.,2.75,Poor
+Protein,Duck,Moderate,Moderately soft,Moderate,Sticky,Fatty meat; can lubricate stool but is heavy—use small portions.,2.75,Acceptable
+Protein,Soft tofu,Low,Soft,Low,Smooth,Very soft and gentle; excellent protein option after surgery.,3.75,Excellent
+Protein,Firm tofu,Low,Moderately soft,Low,Smooth,A bit firmer but still gentle; good choice in soups and stews.,2.75,Good
+Protein,Tempeh,Moderate,Moderately soft,Moderate,Neutral,"Fermented and high in fibre; can cause gas in some people, so use small portions.",2.75,Acceptable
+Protein,Fish balls,Low,Moderately soft,Moderate,Neutral,Processed fish product; acceptable in soup but not ideal in large amounts.,2.75,Acceptable
+Protein,Fish cake,Low,Moderately soft,Moderate,Neutral,Processed fish product; acceptable in soup but not ideal in large amounts.,2.75,Acceptable
+Protein,Prawn,Moderate,Hard,High,Sticky,Chewy texture; may increase stool firmness and discomfort.,2.75,Poor
+Protein,Crab meat,Low,Soft,Low,Smooth,Soft white meat; generally gentle if not too heavily seasoned.,2.75,Good
+Protein,Squid,Moderate,Hard,High,Sticky,Very chewy and harder to digest; best avoided soon after surgery.,2.75,Poor
+Protein,Spam,Moderate,Hard,Very high,Sticky,"Highly processed, salty and fatty; can worsen constipation and stool stickiness.",2.75,Very Poor
+Protein,Soft-boiled egg,Low,Soft,Low,Smooth,Soft and easy to digest; one of the best egg preparations during recovery.,3.75,Excellent
+Protein,Hard-boiled egg,Low,Hard,High,Sticky,Can firm up stool; choose soft-boiled or scrambled instead.,2.75,Poor
+Protein,Scrambled egg,Low,Soft,Low,Smooth,Soft and moist; usually well tolerated.,2.75,Good
+Protein,Fried egg,Low,Moderately soft,Moderate,Sticky,Can be slightly oily and crisp at the edges; better if cooked gently with little oil.,2.75,Acceptable
+Protein,Century egg,Low,Moderately soft,Moderate,Neutral,Strong flavour but soft texture; acceptable in small portions if tolerated.,2.75,Acceptable
 Dairy,Fresh milk,Low,Neutral,Moderate,Neutral,Generally neutral for stool; acceptable if tolerated.,4,Acceptable
 Dairy,Lactose-free milk,Low,Neutral,Low,Neutral,Gentle on digestion; good alternative for lactose intolerance.,4,Good
 Dairy,Oat milk,Low,Moderately soft,Low,Smooth,Contains soluble fibre that may help soften stool.,4,Good
