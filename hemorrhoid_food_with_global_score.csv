@@ -1,0 +1,209 @@
+Category,Food,StoolOutput,StoolSoftness,HardeningRisk,Stickiness,Recommendation,NumericScore,GlobalSuitabilityScore
+Fruit,Papaya,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Mango (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Mango (green),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Banana (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Banana (unripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Apple (with skin),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Apple (without skin),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Pear,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Watermelon,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Dragon fruit (white),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Dragon fruit (red),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Kiwi (green),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Kiwi (yellow),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Orange,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Pineapple,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Grapes,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Guava (with seeds),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Guava (seedless),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Lychee,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Longan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Rambutan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Mangosteen,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Durian,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Jackfruit,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Pomelo,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Grains,White rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Brown rice,High,Hard,High,Sticky,Can increase stool bulk; limit during recovery.,2.0,Poor
+Grains,Jasmine rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Japanese rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Sticky rice,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Congee,Moderate,Soft,High,Neutral,Very gentle on digestion; highly recommended.,3.0,Acceptable
+Grains,Rice vermicelli,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Pho noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Kway teow,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Hokkien noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Yellow noodles,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Instant noodles (fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Instant noodles (non-fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Banh mi,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,White bread,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Whole wheat bread,High,Hard,High,Sticky,Can increase stool bulk; limit during recovery.,2.0,Poor
+Grains,Multigrain bread,High,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.5,Poor
+Grains,Quinoa,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Barley,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Rolled oats,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Instant oats,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Chia seeds,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Flax seeds,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Sweet potato,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Korean sweet potato,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Potato (boiled),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Potato (fried),Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Taro,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Yam,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Grains,Corn,Moderate,Moderately soft,High,Neutral,Safe in moderation; pair with fluids.,2.75,Poor
+Vegetable,Spinach,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Bok choy,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Choy sum,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Kang kong,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Broccoli,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Cauliflower,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Cabbage,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Lettuce,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Romaine,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Iceberg lettuce,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Tomato (raw),Moderate,Hard,Moderate,Neutral,Raw textures may be irritating; cook until soft.,2.75,Poor
+Vegetable,Tomato (cooked),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Carrot (raw),Moderate,Hard,Moderate,Neutral,Raw textures may be irritating; cook until soft.,2.75,Poor
+Vegetable,Carrot (steamed),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Pumpkin,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Winter melon,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Bitter gourd,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Long beans,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,French beans,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Okra,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Eggplant,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Daikon,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Kimchi,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Sauerkraut,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Mushroom (shiitake),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Mushroom (enoki),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Onion,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Garlic,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Seaweed,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Vegetable,Bean sprouts,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3.0,Acceptable
+Protein,Chicken breast,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Chicken thigh,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Chicken skin,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Seabass,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Red snapper,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Salmon (steamed),Very low,Soft,High,Smooth,Excellent; natural oils improve lubrication.,3.75,Acceptable
+Protein,Salmon (raw),Very low,Soft,High,Smooth,Excellent; natural oils improve lubrication.,3.75,Acceptable
+Protein,Tuna,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Mackerel,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Sardines (water),Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Sardines (oil),Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Pork lean,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Pork belly,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Char siu,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Roast pork,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Beef steak,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Beef brisket,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Pho brisket,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Lamb,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Duck,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Soft tofu,Very low,Soft,High,Smooth,Low residue but may harden stools; combine with soups.,3.75,Acceptable
+Protein,Firm tofu,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Tempeh,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Fish balls,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Fish cake,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Prawn,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Crab meat,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Squid,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Spam,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Soft-boiled egg,Very low,Soft,High,Smooth,Low residue but may harden stools; combine with soups.,3.75,Acceptable
+Protein,Hard-boiled egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Scrambled egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Fried egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Protein,Century egg,Very low,Hard,High,Sticky,Low residue but may harden stools; combine with soups.,2.75,Poor
+Dairy,Fresh milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Lactose-free milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Oat milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Soy milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Almond milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Yogurt,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Yakult,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Ice cream,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Cheddar cheese,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,String cheese,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Whipped cream,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Butter,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Margarine,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Condensed milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Dairy,Evaporated milk,Low,Soft,Low,Smooth,Generally softening; good addition unless lactose intolerant.,4.0,Good
+Snack,Almonds,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Cashews,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Peanuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Walnuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Sunflower seeds,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Potato chips,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Popcorn,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Seaweed snacks,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Milk chocolate,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Dark chocolate,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Mochi,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Rice crackers,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Cream crackers,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Digestive biscuits,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Marie biscuits,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Granola,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Trail mix,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Dried apricots,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Dried figs,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Dried raisins,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Dried prunes,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Cupcakes,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Doughnuts,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Waffles,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Snack,Croissants,High,Hard,High,Sticky,Often constipating; minimize during recovery.,2.0,Poor
+Drinks,Water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Coconut water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Barley water,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Chrysanthemum tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Green tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Black tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Black coffee,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Milk tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Bubble tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Fruit smoothies,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Orange juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Apple juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Sugarcane juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Tau huay,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Bird’s nest drink,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Herbal soup,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Chicken broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Pork broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Vegetable soup,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Bone broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Agar jelly,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Grass jelly,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Sago dessert,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Ice kachang,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Che ba mau,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Dish,Pho (full bowl),High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Bun thit nuong,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Com tam,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Mi quang,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Banh cuon,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Banh uot,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Chicken rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Laksa,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Bak chor mee,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Bak kut teh,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Char kway teow,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Hokkien mee,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Yong tau foo,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Japanese curry rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Sushi rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Sashimi,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Bibimbap,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Japchae,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Miso soup,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Hotpot ingredients,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Steamed bun,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Char siew bun,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Fried rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Claypot rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
