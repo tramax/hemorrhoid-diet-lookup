@@ -3,9 +3,7 @@ export const uiText = {
   en: {
     title: "Hemorrhoid Diet Lookup",
     subtitle:
-      "Check how a food is likely to affect your stool after hemorrhoid surgery.",
-    infoBanner:
-      "This tool focuses on stool output, softness, hardening risk, and stickiness to help you choose foods that minimise pain when passing motion.",
+      "Check how a food is likely to affect your stool after hemorrhoid surgery. This tool focuses on stool output, softness, hardening risk, and stickiness to help you choose foods that minimise pain when passing motion.",
     searchPlaceholder:
       "Search by food name or category (e.g. salmon, pho, fruit)...",
     clear: "Clear",
@@ -37,9 +35,7 @@ export const uiText = {
   vi: {
     title: "Tra cứu thực phẩm cho bệnh trĩ",
     subtitle:
-      "Kiểm tra xem một loại thực phẩm có thể ảnh hưởng đến phân như thế nào sau phẫu thuật trĩ.",
-    infoBanner:
-      "Công cụ này tập trung vào lượng phân, độ mềm, nguy cơ bị khô cứng và độ dính của phân để giúp bạn chọn thực phẩm giảm đau khi đi tiêu.",
+      "Kiểm tra xem một loại thực phẩm có thể ảnh hưởng đến phân như thế nào sau phẫu thuật trĩ. Công cụ này tập trung vào lượng phân, độ mềm, nguy cơ bị khô cứng và độ dính của phân để giúp bạn chọn thực phẩm giảm đau khi đi tiêu.",
     searchPlaceholder:
       "Tìm theo tên hoặc nhóm thực phẩm (ví dụ: cá hồi, phở, trái cây)...",
     clear: "Xoá",
