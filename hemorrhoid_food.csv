@@ -146,10 +146,10 @@ Snack,Dark chocolate,Low,Hard,Moderate–High,Sticky,Cocoa can firm stool; consu
 Snack,Mochi,Low,Hard,Very high,Very sticky,Glutinous rice forms extremely sticky stool; avoid.,2,Very Poor
 Snack,Rice crackers,Low,Hard,High,Neutral,Extremely dry; absorbs moisture and hardens stool.,2,Poor
 Snack,Cream crackers,Low,Hard,Very high,Neutral,Highly dehydrating; one of the worst for constipation.,2,Very Poor
-Snack,Digestive biscuits,Low,Moderately hard,High,Neutral,"Despite fiber claims, still dry and firms stool.",2,Poor
+Snack,Digestive biscuits,Low,Moderately soft,High,Neutral,"Despite fiber claims, still dry and firms stool.",2,Poor
 Snack,Marie biscuits,Low,Hard,Very high,Neutral,Dry refined flour; strongly constipating.,2,Very Poor
 Snack,Granola,Moderate,Moderately soft,Moderate,Neutral,Oats soften but nuts and sugar increase density; small portions only.,2,Acceptable
-Snack,Trail mix,Moderate,Moderately hard,High,Sticky,Nuts and dried fruit increase stool bulk and stickiness.,2,Poor
+Snack,Trail mix,Moderate,Moderately soft,High,Sticky,Nuts and dried fruit increase stool bulk and stickiness.,2,Poor
 Snack,Dried apricots,Low,Hard,High,Very sticky,High sugar makes stool sticky despite fiber content.,2,Poor
 Snack,Dried figs,Low,Hard,High,Sticky,Seeds and sugar can irritate and harden stool.,2,Poor
 Snack,Dried raisins,Low,Hard,High,Sticky,Very sugary and sticky; increases stool firmness.,2,Poor
@@ -196,7 +196,7 @@ Dish,Bak kut teh,Low,Moderately soft,Moderate,Neutral,"Broth hydrates, but ribs 
 Dish,Char kway teow,Moderate,Hard,Very high,Very sticky,Oily and dehydrating; produces sticky stool that is painful to pass.,2.5,Very Poor
 Dish,Hokkien mee,Moderate,Hard,High,Sticky,Oily yellow noodles with seafood create firm sticky stool.,2.5,Poor
 Dish,Yong tau foo,Low,Moderately soft,Moderate,Neutral,"Choose soup base, tofu, and soft veg; avoid fried items.",2.5,Good
-Dish,Japanese curry rice,Moderate,Moderately hard,High,Sticky,"Dry rice with thick curry creates dense, sticky stool.",2.5,Poor
+Dish,Japanese curry rice,Moderate,Moderately soft,High,Sticky,"Dry rice with thick curry creates dense, sticky stool.",2.5,Poor
 Dish,Sushi rice,Moderate,Moderately soft,High,Sticky,Short-grain sticky rice forms dense stool clumps.,2.5,Poor
 Dish,Sashimi,Low,Soft,Low,Smooth,Soft fish protein is gentle; avoid pairing with rice for best effect.,2.5,Good
 Dish,Bibimbap,High,Hard,High,Sticky,"Raw vegetables, rice, and spicy paste increase stool hardness and irritation.",2.5,Poor
