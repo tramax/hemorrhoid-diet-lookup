@@ -6,7 +6,7 @@ import {
   categoryTranslations,
 } from "./translations.js";
 
-const CSV_FILE = "hemorrhoid_food_with_global_score.csv";
+const CSV_FILE = "hemorrhoid_food.csv";
 
 let allFoods = [];
 let activeCategory = "All";

@@ -4,8 +4,8 @@ Fruit,Mango (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; cons
 Fruit,Mango (green),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Banana (ripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Banana (unripe),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
-Fruit,Apple (with skin),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
-Fruit,Apple (without skin),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Apple (with skin),High,Moderately soft,Low,Neutral,Adds bulk and rougher texture; limit if bulky stool worsens pain.,4.0,Acceptable
+Fruit,Apple (without skin),Moderate,Moderately soft,Moderate,Neutral,Less bulky and easier to tolerate; good in small portions with fluids.,4.0,Good
 Fruit,Pear,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Watermelon,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Dragon fruit (white),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
@@ -15,8 +15,8 @@ Fruit,Kiwi (yellow),Low,Soft,Low,Smooth,Generally excellent for soft stools; con
 Fruit,Orange,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Pineapple,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Grapes,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
-Fruit,Guava (with seeds),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
-Fruit,Guava (seedless),Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
+Fruit,Guava (with seeds),High,Hard,Very high,Very sticky,Hard seeds can irritate and increase stool bulk; avoid during recovery.,4.0,Very Poor
+Fruit,Guava (seedless),Moderate,Moderately soft,Moderate,Neutral,Still high fibre; use small portions and chew well.,4.0,Acceptable
 Fruit,Lychee,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Longan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
 Fruit,Rambutan,Low,Soft,Low,Smooth,Generally excellent for soft stools; consume freely unless bloated.,4.0,Good
@@ -165,24 +165,24 @@ Drinks,Chrysanthemum tea,Very low,Very soft,Very low,Very smooth,Hydrating and s
 Drinks,Green tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Black tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Black coffee,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Milk tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Bubble tea,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Fruit smoothies,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Orange juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Apple juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Sugarcane juice,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Milk tea,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Bubble tea,Low,Hard,High,Very sticky,Sugary drink with pearls can increase stool stickiness and constipation; avoid during recovery.,5.0,Very Poor
+Drinks,Fruit smoothies,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Orange juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Apple juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Sugarcane juice,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
 Drinks,Tau huay,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Bird’s nest drink,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Bird’s nest drink,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
 Drinks,Herbal soup,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Chicken broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Pork broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Vegetable soup,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
 Drinks,Bone broth,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Agar jelly,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Grass jelly,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Sago dessert,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Ice kachang,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
-Drinks,Che ba mau,Very low,Very soft,Very low,Very smooth,Hydrating and softening; excellent support for recovery.,5.0,Excellent
+Drinks,Agar jelly,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Grass jelly,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Sago dessert,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Ice kachang,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
+Drinks,Che ba mau,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5.0,Poor
 Dish,Pho (full bowl),High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
 Dish,Bun thit nuong,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
 Dish,Com tam,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
