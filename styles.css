@@ -40,10 +40,11 @@ body {
   width: 100%;
   max-width: 720px;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-  margin-bottom: 16px;
   display: flex;
   flex-direction: column;
   gap: 6px;
@@ -69,6 +70,8 @@ h1 {
   border: 1px solid #e5e7eb;
   overflow: hidden;
   background: #f9fafb;
+  margin-left: auto;
+  margin-bottom: 8px;
 }
 
 .lang-btn {
