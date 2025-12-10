@@ -1,7 +1,6 @@
 :root {
-  --bg: #f3f4f6;
   --card-bg: #ffffff;
-  --border-subtle: #e5e7eb;
+  --border-subtle: #ffffff;
   --text-main: #111827;
   --text-muted: #6b7280;
   --text-soft: #9ca3af;
@@ -25,12 +24,7 @@ body {
   padding: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  background: radial-gradient(
-    circle at top left,
-    #e0f2fe,
-    #eef2ff 30%,
-    #f9fafb 70%
-  );
+  background: #f2f6ff;
   color: var(--text-main);
   display: flex;
   justify-content: center;
@@ -104,7 +98,7 @@ h1 {
 
 .search-area {
   margin-top: 16px;
-  padding: 12px;
+  padding: 16px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.85);
   border: 1px solid var(--border-subtle);
@@ -124,7 +118,7 @@ h1 {
   outline: none;
   font-size: 1rem;
   color: var(--text-main);
-  background: #f9fafb;
+  background: #ffffff;
   transition: border-color 0.15s ease, box-shadow 0.15s ease,
     background 0.15s ease;
 }
@@ -170,7 +164,11 @@ h1 {
   flex-wrap: wrap;
   gap: 6px;
   margin-top: 4px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+.pill-row:last-child {
+  margin-bottom: 0;
 }
 
 .pill {
@@ -211,7 +209,7 @@ h1 {
 .card {
   background: var(--card-bg);
   border-radius: 18px;
-  padding: 14px 14px 12px;
+  padding: 16px;
   margin-bottom: 10px;
   border: 1px solid var(--border-subtle);
   box-shadow: 0 10px 25px rgba(15, 23, 42, 0.06);
@@ -225,8 +223,9 @@ h1 {
 }
 
 .food-name {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  margin-bottom: 8px;
   color: #0f172a;
 }
 
@@ -341,13 +340,7 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .card {
-    padding: 12px 12px 10px;
-  }
   .grid {
     grid-template-columns: 1fr 1fr;
-  }
-  .search-area {
-    padding: 10px;
   }
 }
