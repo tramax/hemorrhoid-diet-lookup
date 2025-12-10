@@ -183,27 +183,27 @@ Drinks,Grass jelly,Low,Hard,High,Sticky,High sugar and low fibre may harden stoo
 Drinks,Sago dessert,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
 Drinks,Ice kachang,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
 Drinks,Che ba mau,Low,Hard,High,Sticky,High sugar and low fibre may harden stool; limit during recovery.,5,Poor
-Dish,Pho (full bowl),High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Bun thit nuong,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Com tam,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Mi quang,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Banh cuon,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Banh uot,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Chicken rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Laksa,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Bak chor mee,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Bak kut teh,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Char kway teow,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Hokkien mee,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Yong tau foo,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Japanese curry rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Sushi rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Sashimi,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Bibimbap,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Japchae,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Miso soup,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Hotpot ingredients,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Steamed bun,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Char siew bun,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Fried rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
-Dish,Claypot rice,High,Moderately soft,High,Neutral,Real-life stool effect varies; consume small portions and monitor.,2.5,Poor
+Dish,Pho (full bowl),Low,Soft,Low,Smooth,Broth provides hydration and soft noodles help stool pass easily; avoid tendon and choose brisket or chicken.,2.5,Good
+Dish,Bun thit nuong,Moderate,Hard,High,Sticky,"Dry vermicelli, grilled meat, and raw veg make stool firm and sticky; avoid during recovery.",2.5,Poor
+Dish,Com tam,Moderate,Hard,High,Sticky,Broken rice and grilled pork are dry and firm; increases stool hardness and pain.,2.5,Poor
+Dish,Mi quang,Moderate,Hard,High,Sticky,"Dry noodles, peanuts, and minimal broth create dense stool; unsuitable during recovery.",2.5,Poor
+Dish,Banh cuon,Low,Moderately soft,Moderate,Neutral,Soft steamed sheets and minced meat are gentle; limit fried shallots and sauce.,2.5,Acceptable
+Dish,Banh uot,Low,Moderately soft,Low,Neutral,Very soft rice sheets digest easily; suitable in small portions.,2.5,Good
+Dish,Chicken rice,Moderate,Hard,High,Neutral,Dry white rice and oily chicken skin may lead to firm stool; add soup if consuming.,2.5,Poor
+Dish,Laksa,Moderate,Moderately soft,Moderate,Sticky,Broth softens but spice and oil irritate; avoid if anal area is sensitive.,2.5,Poor
+Dish,Bak chor mee,Moderate,Hard,High,Sticky,Dry oily noodles form sticky stool; soup version is safer.,2.5,Poor
+Dish,Bak kut teh,Low,Moderately soft,Moderate,Neutral,"Broth hydrates, but ribs are chewy; peppery versions may irritate.",2.5,Acceptable
+Dish,Char kway teow,Moderate,Hard,Very high,Very sticky,Oily and dehydrating; produces sticky stool that is painful to pass.,2.5,Very Poor
+Dish,Hokkien mee,Moderate,Hard,High,Sticky,Oily yellow noodles with seafood create firm sticky stool.,2.5,Poor
+Dish,Yong tau foo,Low,Moderately soft,Moderate,Neutral,"Choose soup base, tofu, and soft veg; avoid fried items.",2.5,Good
+Dish,Japanese curry rice,Moderate,Moderately hard,High,Sticky,"Dry rice with thick curry creates dense, sticky stool.",2.5,Poor
+Dish,Sushi rice,Moderate,Moderately soft,High,Sticky,Short-grain sticky rice forms dense stool clumps.,2.5,Poor
+Dish,Sashimi,Low,Soft,Low,Smooth,Soft fish protein is gentle; avoid pairing with rice for best effect.,2.5,Good
+Dish,Bibimbap,High,Hard,High,Sticky,"Raw vegetables, rice, and spicy paste increase stool hardness and irritation.",2.5,Poor
+Dish,Japchae,Moderate,Hard,High,Sticky,Sweet potato noodles are sticky and heavy; may produce dense stool.,2.5,Poor
+Dish,Miso soup,Low,Soft,Low,Smooth,Warm broth is hydrating and gentle; ideal as a side dish.,2.5,Good
+Dish,Hotpot ingredients,Moderate,Moderately soft,Moderate,Neutral,"Choose tofu, soft vegetables and broth; avoid fried items, meatballs, and mala base.",2.5,Acceptable
+Dish,Steamed bun,Moderate,Hard,High,Neutral,Refined flour bun is dense and dry; tends to form firm stool.,2.5,Poor
+Dish,Char siew bun,Moderate,Hard,High,Sticky,Dry bun and sticky sweet filling make stool denser and harder.,2.5,Poor
+Dish,Fried rice,Moderate,Hard,Very high,Sticky,Dry and oily; one of the most constipating rice dishes.,2.5,Very Poor
+Dish,Claypot rice,Moderate,Hard,Very high,Sticky,Crispy dehydrated rice and oily meats create very firm stool.,2.5,Very Poor
