@@ -121,8 +121,8 @@ export const recommendationTranslations = {
       "Đỡ cọ xát hơn loại có hạt nhưng vẫn chứa khá nhiều chất xơ.",
     "Blended fruit becomes dense and sticky; may firm stool.":
       "Trái cây xay nhuyễn trở nên đặc và dính; có thể làm phân chắc hơn.",
-    "Boiled or steamed sweet potato contains water and fibre that ...n stool; best eaten mashed or in small chunks, not deep-fried.":
-      "Khoai lang luộc hoặc hấp chứa nhiều nước và chất xơ giúp ...n phân; tốt nhất nên ăn nghiền hoặc cắt miếng nhỏ, tránh chiên ngập dầu.",
+    "Boiled or steamed sweet potato contains water and fibre that help soften stool; best eaten mashed or in small chunks, not deep‑fried.":
+      "Khoai lang luộc hoặc hấp chứa nhiều nước và chất xơ giúp làm mềm phân; tốt nhất nên ăn nghiền hoặc cắt miếng nhỏ, tránh chiên ngập dầu.",
     "Broken rice and grilled pork are dry and firm; increases stool hardness and pain.":
       "Cơm tấm và thịt nướng khô, chắc; dễ làm phân cứng hơn và tăng đau khi đi ngoài.",
     "Broth hydrates, but ribs are chewy; peppery versions may irritate.":
@@ -153,6 +153,22 @@ export const recommendationTranslations = {
       "Sữa cô đặc gần như không có chất xơ; có thể làm phân cứng hơn.",
     "Contains seeds that may irritate; remove if sensitive.":
       "Có hạt có thể gây cọ xát, kích ứng; nên bỏ hạt nếu bạn nhạy cảm.",
+    "Contains soluble fiber; gentle stool-softening effect.":
+      "Chứa chất xơ hòa tan; có tác dụng làm mềm phân nhẹ nhàng.",
+    "Contains soluble fiber; gently softens stool.":
+      "Chứa chất xơ hòa tan; giúp làm mềm phân nhẹ nhàng.",
+    "Contains soluble fibre that may help soften stool.":
+      "Chứa chất xơ hòa tan có thể giúp làm mềm phân.",
+    "Cook thoroughly; may cause gas which increases discomfort.":
+      "Nên nấu chín kỹ; có thể gây đầy hơi làm tăng khó chịu.",
+    "Cooking breaks down fibers; gentler on digestion.":
+      "Nấu chín phá vỡ các sợi xơ; dễ tiêu hóa hơn.",
+    "Corn skins often pass intact and add rough bulk; may be uncomfortable if your anal area is very sensitive.":
+      "Vỏ bắp thường đi ra gần như nguyên vẹn và làm phân to, ráp hơn; có thể gây khó chịu nếu vùng hậu môn rất nhạy cảm.",
+    "Crispy dehydrated rice and oily meats create very firm stool.":
+      "Cơm rang khô giòn và thịt nhiều dầu tạo phân rất chắc.",
+    "Crispy, fatty and salty; may worsen stool stickiness.":
+      "Giòn, nhiều mỡ và mặn; có thể làm phân dính hơn.",
     "Dry and oily; highly constipating and dehydrating.":
       "Vừa khô vừa nhiều dầu; rất dễ gây táo bón và làm cơ thể mất nước.",
     "Dry and oily; one of the most constipating rice dishes.":
@@ -163,16 +179,34 @@ export const recommendationTranslations = {
       "Bánh nhiều bơ và khô làm phân khô hơn và tăng độ cứng.",
     "Dry noodles, peanuts, and minimal broth create dense stool; unsuitable during recovery.":
       "Mì khô, đậu phộng và ít nước dùng tạo phân đặc và nén; không phù hợp trong giai đoạn hồi phục.",
+    "Dry oily noodles form sticky stool; soup version is safer.":
+      "Mì dầu khô tạo phân dính; phiên bản canh an toàn hơn.",
     "Dry refined flour leads to harder stool.":
       "Bột tinh luyện dạng khô khiến phân cứng hơn.",
     "Dry refined flour; strongly constipating.":
       "Bột tinh luyện khô; rất dễ gây táo bón.",
+    "Dry rice with thick curry creates dense, sticky stool.":
+      "Cơm khô với cà ri đặc tạo phân đặc và dính.",
+    "Dry vermicelli, grilled meat, and raw veg make stool firm and sticky; avoid during recovery.":
+      "Bún khô, thịt nướng và rau sống làm phân chắc và dính; nên tránh trong giai đoạn hồi phục.",
     "Dry, crispy rice and oily meats create very firm stool.":
       "Cơm cháy khô và thịt nhiều dầu khiến phân rất chắc và khó đi.",
     "Dry, fibrous textures; may be uncomfortable if stool is already bulky.":
       "Kết cấu khô và nhiều xơ; dễ gây khó chịu nếu phân vốn đã to và nhiều.",
     "Dry white rice and oily chicken skin may lead to firm stool; add soup if consuming.":
       "Cơm trắng khô và da gà nhiều mỡ dễ làm phân chắc; nếu ăn nên kèm thêm nhiều canh.",
+    "Dairy + tea + sugar increase stool firmness; avoid during recovery.":
+      "Sữa + trà + đường làm phân cứng hơn; nên tránh trong giai đoạn hồi phục.",
+    "Deep‑fried potatoes are dry and oily; they add calories without moisture or fibre and can contribute to harder stools.":
+      "Khoai tây chiên ngập dầu khô và nhiều dầu mỡ; chỉ thêm calo mà không có độ ẩm hay chất xơ và có thể làm phân cứng hơn.",
+    "Dense and low fibre; may worsen constipation.":
+      "Đặc và ít chất xơ; có thể làm táo bón nặng hơn.",
+    "Dense, dry and fatty; tends to harden stool.":
+      "Đặc, khô và nhiều mỡ; có xu hướng làm phân cứng.",
+    "Denser and sweeter than regular sweet potato but still helpful for stool softness when boiled or baked and eaten with fluids.":
+      "Đặc và ngọt hơn khoai lang thường nhưng vẫn có lợi cho độ mềm của phân khi luộc hoặc nướng và ăn kèm nhiều nước.",
+    "Despite fiber claims, still dry and firms stool.":
+      "Dù quảng cáo nhiều chất xơ nhưng vẫn khô và làm phân chắc.",
     "Electrolytes support hydration and stool softness.":
       "Chất điện giải giúp giữ nước và hỗ trợ làm phân mềm.",
     "Extremely dry; absorbs moisture and hardens stool.":
@@ -215,8 +249,8 @@ export const recommendationTranslations = {
       "Gạo nếp tạo phân cực kỳ dính; nên tránh.",
     "Glutinous rice is very sticky and dense; can form hard lumps of stool and is best avoided during recovery.":
       "Gạo nếp rất dính và đặc; dễ tạo cục phân cứng nên tốt nhất tránh trong giai đoạn hồi phục.",
-    "Ground flax provides soluble and insoluble fibre and gentle o...ol and acts as a mild natural laxative if fluids are adequate.":
-      "Hạt lanh xay cung cấp cả chất xơ hòa tan và không hòa tan cùng o...ol nhẹ; có tác dụng nhuận tràng nhẹ nếu uống đủ nước.",
+    "Ground flax provides soluble and insoluble fibre and gentle oil; softens stool and acts as a mild natural laxative if fluids are adequate.":
+      "Hạt lanh xay cung cấp cả chất xơ hòa tan và không hòa tan cùng dầu nhẹ; làm mềm phân và có tác dụng nhuận tràng nhẹ nếu uống đủ nước.",
     "Healthy but gassy; cook well and use small portions.":
       "Bổ nhưng dễ gây đầy hơi; nên nấu chín kỹ và ăn lượng nhỏ.",
     "High FODMAP; gas increases anorectal pain.":
@@ -259,11 +293,13 @@ export const recommendationTranslations = {
       "Hàm lượng nước cao; giúp phân mềm và dễ đi hơn.",
     "Higher fibre than white bread and can soften stool, but increases bulk; introduce gradually and drink enough water.":
       "Nhiều chất xơ hơn bánh mì trắng và có thể làm phân mềm hơn, nhưng cũng làm phân to hơn; nên tăng dần lượng ăn và uống đủ nước.",
-    "Higher insoluble fibre softens stool but increases bulk; bet...er in later recovery and in small portions with plenty of fluid.":
-      "Chất xơ không hòa tan cao giúp ...er phân mềm hơn nhưng làm tăng thể tích phân; phù hợp hơn ở giai đoạn hồi phục sau và với khẩu phần nhỏ, kèm nhiều nước.",
+    "Higher insoluble fibre softens stool but increases bulk; better in later recovery and in small portions with plenty of fluid.":
+      "Chất xơ không hòa tan cao giúp làm phân mềm hơn nhưng làm tăng thể tích phân; phù hợp hơn ở giai đoạn hồi phục sau và với khẩu phần nhỏ, kèm nhiều nước.",
     "Highly dehydrating; one of the worst for constipation.":
       "Làm cơ thể rất dễ mất nước; là một trong những thực phẩm dễ gây táo bón nhất.",
     "Highly processed, low-fibre and dehydrating; frequent intake is linked with constipation and should be avoided in recovery.":
+      "Chế biến sẵn, ít chất xơ và dễ làm cơ thể mất nước; ăn thường xuyên liên quan đến táo bón nên nên tránh trong thời gian hồi phục.",
+    "Highly processed, low‑fibre and dehydrating; frequent intake is linked with constipation and should be avoided in recovery.":
       "Chế biến sẵn, ít chất xơ và dễ làm cơ thể mất nước; ăn thường xuyên liên quan đến táo bón nên nên tránh trong thời gian hồi phục.",
     "Highly processed, salty and fatty; can worsen constipation and stool stickiness.":
       "Thực phẩm chế biến sẵn, mặn và nhiều mỡ; có thể làm táo bón nặng hơn và tăng độ dính của phân.",
@@ -275,6 +311,10 @@ export const recommendationTranslations = {
       "Giúp bổ sung nước và có xu hướng làm phân mềm hơn.",
     "Hydrating and softening; excellent support for recovery.":
       "Giúp bổ sung nước và làm phân mềm; rất hỗ trợ cho quá trình hồi phục.",
+    "Hydrating but low soluble fiber; may not soften stool meaningfully.":
+      "Giúp bổ sung nước nhưng ít chất xơ hòa tan; có thể không làm mềm phân đáng kể.",
+    "Hydrating but slightly rougher; acceptable in small amounts.":
+      "Giúp bổ sung nước nhưng hơi ráp hơn; chấp nhận được nếu ăn lượng nhỏ.",
     "Hydrating herbal drink; soothing and gentle.":
       "Thức uống thảo mộc giúp bổ sung nước; dịu và dễ chịu.",
     "Hydrating liquid but can cause gas and bloating in some people; use small portions.":
@@ -283,15 +323,23 @@ export const recommendationTranslations = {
       "Lớp vỏ còn nguyên có thể đi ra gần như nguyên vẹn và gây cọ xát; không phù hợp nếu bạn đang rất đau.",
     "Lean and soft when cooked gently; chew well and avoid very dry versions.":
       "Thịt nạc sẽ mềm nếu nấu dịu lửa; nên nhai kỹ và tránh các phiên bản nướng/chiên khô.",
+    "Lean red meat; choose braised or stewed versions and chew well.":
+      "Thịt đỏ nạc; nên chọn phiên bản hầm hoặc kho và nhai kỹ.",
     "Legumes can increase gas; monitor your tolerance.":
       "Đậu có thể làm tăng đầy hơi; nên theo dõi khả năng dung nạp của bản thân.",
+    "Less bulk; easier to tolerate.":
+      "Ít thể tích hơn; dễ dung nạp hơn.",
     "Light and hydrating; choose unsweetened versions.":
       "Nhẹ, giúp bổ sung nước; nên chọn loại không đường.",
     "Liquid helps hydration but sugar reduces benefit; keep portions small.":
       "Dạng lỏng giúp bổ sung nước nhưng đường làm giảm lợi ích đó; nên dùng khẩu phần nhỏ.",
     "Low fibre; may firm stool if eaten alone.":
       "Ít chất xơ; có thể làm phân chắc hơn nếu ăn một mình.",
+    "Low moisture and dense texture; avoid if stool becomes hard.":
+      "Ít độ ẩm và kết cấu đặc; nên tránh nếu phân trở nên cứng.",
     "Low residue but no stool-softening benefit; acceptable.":
+      "Ít bã nhưng hầu như không giúp làm phân mềm; vẫn có thể dùng được.",
+    "Low residue but no stool‑softening benefit; acceptable.":
       "Ít bã nhưng hầu như không giúp làm phân mềm; vẫn có thể dùng được.",
     "Mild caffeine may dehydrate; consume with extra water.":
       "Caffeine nhẹ có thể làm cơ thể mất nước; nên uống kèm thêm nước lọc.",
@@ -303,12 +351,12 @@ export const recommendationTranslations = {
       "Ảnh hưởng trung tính lên phân; nên chọn phiên bản không đường.",
     "Nuts and dried fruit increase stool bulk and stickiness.":
       "Các loại hạt và trái cây sấy làm phân to hơn và dính hơn.",
-    "Oats contain soluble fibre that forms a gentle gel, helping p...roduce soft, easy-to-pass stools when taken with enough fluid.":
-      "Yến mạch chứa chất xơ hòa tan tạo lớp gel nhẹ, giúp p...ra phân mềm và dễ đi hơn khi uống kèm đủ nước.",
+    "Oats contain soluble fibre that forms a gentle gel, helping produce soft, easy‑to‑pass stools when taken with enough fluid.":
+      "Yến mạch chứa chất xơ hòa tan tạo lớp gel nhẹ, giúp tạo ra phân mềm và dễ đi khi uống kèm đủ nước.",
     "Oats soften but nuts and sugar increase density; small portions only.":
       "Yến mạch giúp mềm phân nhưng hạt và đường làm món ăn đặc hơn; chỉ nên ăn khẩu phần nhỏ.",
-    "Often contains seeds and whole grains; can help softness but ...stool bulkier and may irritate if many hard seeds are present.":
-      "Thường chứa hạt và ngũ cốc nguyên hạt; có thể giúp mềm phân nhưng cũng làm ...phân to hơn và đôi khi gây xốn nếu có nhiều hạt cứng.",
+    "Often contains seeds and whole grains; can help softness but makes stool bulkier and may irritate if many hard seeds are present.":
+      "Thường chứa hạt và ngũ cốc nguyên hạt; có thể giúp mềm phân nhưng cũng làm phân to hơn và đôi khi gây kích ứng nếu có nhiều hạt cứng.",
     "Often oily and salty; acceptable in small portions.":
       "Thường hơi nhiều dầu và muối; dùng được nếu chỉ ăn lượng nhỏ.",
     "Often served fried with oil; can become sticky and dry in the gut, so limit while wounds are fresh.":
@@ -335,6 +383,8 @@ export const recommendationTranslations = {
       "Sản phẩm cá chế biến; dùng trong món nước thì tạm ổn nhưng không nên ăn lượng lớn.",
     "Processed wheat/egg noodles; can be dense and constipating, especially when stir-fried and not taken with soup.":
       "Mì làm từ bột mì/trứng đã qua chế biến; có thể đặc và dễ gây táo bón, đặc biệt khi xào khô và không ăn kèm nước dùng.",
+    "Processed wheat/egg noodles; can be dense and constipating, especially when stir‑fried and not taken with soup.":
+      "Mì làm từ bột mì/trứng đã qua chế biến; có thể đặc và dễ gây táo bón, đặc biệt khi xào khô và không ăn kèm nước dùng.",
     "Processed white bread is low in fibre and may worsen constipation if eaten in large amounts without fruits or vegetables.":
       "Bánh mì trắng tinh luyện ít chất xơ và có thể làm táo bón nặng hơn nếu ăn nhiều mà không kèm trái cây hoặc rau.",
     "Raw vegetables, rice, and spicy paste increase stool hardness and irritation.":
@@ -349,18 +399,40 @@ export const recommendationTranslations = {
       "Cơm trắng tinh luyện ít chất xơ; nếu ăn như nguồn tinh bột chính mà không kèm canh, trái cây hay rau sẽ dễ làm phân nhỏ và cứng.",
     "Rice cooked with a lot of water into porridge; very gentle, low-residue and ideal when pain is severe.":
       "Cơm nấu với rất nhiều nước thành cháo; rất nhẹ nhàng, ít bã và lý tưởng khi cơn đau còn nhiều.",
+    "Rice cooked with a lot of water into porridge; very gentle, low‑residue and ideal when pain is severe.":
+      "Cơm nấu với rất nhiều nước thành cháo; rất nhẹ nhàng, ít bã và lý tưởng khi cơn đau còn nhiều.",
     "Rich in soluble fiber; very stool-softening.":
       "Giàu chất xơ hòa tan; giúp làm phân mềm rõ rệt.",
     "Rich in soluble fibre that softens stool but also adds bulk; use small portions with plenty of fluid.":
       "Nhiều chất xơ hòa tan giúp làm mềm phân nhưng cũng làm phân to hơn; nên ăn khẩu phần nhỏ kèm nhiều nước.",
+    "Rich red meat that can be heavy and harder to digest; limit during recovery.":
+      "Thịt đỏ béo có thể nặng và khó tiêu hơn; nên hạn chế trong giai đoạn hồi phục.",
+    "Ripe and soft; good for stool softness.":
+      "Chín và mềm; tốt cho độ mềm của phân.",
+    "Ripe banana softens stool.":
+      "Chuối chín làm phân mềm hơn.",
     "Rough skins can irritate; peel if your anal area is very sensitive.":
       "Vỏ ráp có thể gây cọ xát; nên gọt vỏ nếu vùng hậu môn đang rất nhạy cảm.",
     "Rough skins may irritate if your anal area is sensitive.":
       "Lớp vỏ ráp có thể gây kích ứng nếu vùng hậu môn nhạy cảm.",
+    "Seed fragments may irritate the anal canal and harden stool.":
+      "Mảnh vỡ hạt có thể gây kích ứng ống hậu môn và làm phân cứng.",
+    "Seeds and sugar can irritate and harden stool.":
+      "Hạt và đường có thể gây kích ứng và làm phân cứng.",
+    "Seeds can irritate and bulk stool; avoid.":
+      "Hạt có thể gây kích ứng và làm phân to hơn; nên tránh.",
+    "Served in broth and cooked soft; generally gentle if portion is moderate.":
+      "Ăn kèm nước dùng và nấu mềm; nhìn chung dịu nếu khẩu phần vừa phải.",
     "Serving size is small; low impact on stool.":
       "Khẩu phần thường nhỏ; tác động lên phân không nhiều.",
+    "Short-grain sticky rice forms dense stool clumps.":
+      "Gạo nếp hạt ngắn tạo cục phân đặc.",
     "Short-grain sticky rice that clumps easily; can form dense stool and increase straining.":
       "Gạo hạt tròn, dẻo và dễ vón cục; có thể tạo phân đặc khiến phải rặn nhiều hơn.",
+    "Short‑grain sticky rice that clumps easily; can form dense stool and increase straining.":
+      "Gạo hạt tròn, dẻo và dễ vón cục; có thể tạo phân đặc khiến phải rặn nhiều hơn.",
+    "Similar to rolled oats but more processed; still helpful for softening stool if not overloaded with sugar.":
+      "Tương tự yến mạch cán dẹt nhưng chế biến nhiều hơn; vẫn có lợi cho việc làm mềm phân nếu không quá nhiều đường.",
     "Similar to taro; soft when boiled but can still be quite starchy, so combine with fluids and vegetables.":
       "Tương tự khoai môn; khi luộc thì mềm nhưng vẫn khá nhiều tinh bột, nên ăn kèm nước và rau.",
     "Skin adds bulk; limit if bulky stool increases pain.":
@@ -462,6 +534,8 @@ export const recommendationTranslations = {
     "When soaked, chia forms a gel that softens and lubricates stool; must be taken with plenty of water to avoid blockage.":
       "Khi ngâm, hạt chia tạo lớp gel giúp làm mềm và bôi trơn phân; bắt buộc phải uống kèm nhiều nước để tránh tắc nghẽn.",
     "When well-boiled in soups or stews, taro is fairly soft but starchy; keep portions small and avoid crispy taro snacks.":
+      "Khi nấu kỹ trong canh hoặc món hầm, khoai môn khá mềm nhưng vẫn nhiều tinh bột; nên ăn lượng nhỏ và tránh các món khoai môn chiên giòn.",
+    "When well‑boiled in soups or stews, taro is fairly soft but starchy; keep portions small and avoid crispy taro snacks.":
       "Khi nấu kỹ trong canh hoặc món hầm, khoai môn khá mềm nhưng vẫn nhiều tinh bột; nên ăn lượng nhỏ và tránh các món khoai môn chiên giòn.",
     "Whole grain with both fibre types; can support softer stools but increases volume—better once acute pain has settled.":
       "Ngũ cốc nguyên hạt có cả hai dạng chất xơ; có thể giúp phân mềm hơn nhưng cũng làm tăng thể tích phân — phù hợp hơn khi giai đoạn đau cấp tính đã qua.",
