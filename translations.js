@@ -136,8 +136,43 @@ export const recommendationTranslations = {
       "Ảnh hưởng lên phân thay đổi theo từng người; nên ăn lượng nhỏ và theo dõi phản ứng.",
     "Safe in moderation.":
       "An toàn nếu dùng vừa phải; quan sát thêm phản ứng cơ thể.",
+    "Adds bulk and rougher texture; limit if bulky stool worsens pain.":
+      "Tăng lượng phân và hơi thô; hạn chế nếu phân to làm bạn đau hơn.",
+    "Less bulky and easier to tolerate; good in small portions with fluids.":
+      "Ít tạo bã và dễ tiêu hơn; dùng lượng nhỏ kèm nhiều nước sẽ tốt hơn.",
+    "Hard seeds can irritate and increase stool bulk; avoid during recovery.":
+      "Hạt cứng có thể gây cọ xát và làm phân to hơn; nên tránh trong giai đoạn hồi phục.",
+    "Still high fibre; use small portions and chew well.":
+      "Vẫn chứa nhiều chất xơ; nên ăn lượng nhỏ và nhai kỹ.",
+    "Sugary drink with pearls can increase stool stickiness and constipation; avoid during recovery.":
+      "Đồ uống nhiều đường kèm trân châu có thể làm phân dính và dễ táo bón; nên tránh khi đang hồi phục.",
+    "High sugar and low fibre may harden stool; limit during recovery.":
+      "Hàm lượng đường cao và ít chất xơ có thể làm phân cứng; nên hạn chế trong giai đoạn hồi phục.",
+    "Gentle and hydrating; suitable for recovery.":
+      "Nhẹ nhàng và bổ sung nước tốt; phù hợp trong giai đoạn hồi phục.",
+    "Provides lubrication and keeps stool soft; useful during recovery.":
+      "Giúp bôi trơn và làm phân mềm; hữu ích trong thời gian hồi phục.",
+    "May cause gas or bloating; use sparingly if sensitive.":
+      "Có thể gây đầy hơi hoặc chướng bụng; dùng ít nếu bạn nhạy cảm.",
+    "Best taken cooked and soft to reduce irritation.":
+      "Nên ăn khi đã nấu chín mềm để giảm kích ứng.",
+    "Can be tough to digest; chew thoroughly and use in moderation.":
+      "Có thể khó tiêu; nên nhai kỹ và dùng với lượng vừa phải.",
+    "High fat content may cause discomfort; small amounts only.":
+      "Hàm lượng chất béo cao có thể gây khó chịu; chỉ nên dùng ít.",
+    "Fermented but high in sugar; limit intake.":
+      "Có lợi khuẩn nhưng chứa nhiều đường; nên hạn chế.",
+    "Hard fragments may irritate the anal canal; avoid during recovery.":
+      "Mảnh cứng có thể gây cọ xát ống hậu môn; nên tránh trong thời gian hồi phục.",
+    "May cause dryness or firm stool; drink extra water if consumed.":
+      "Có thể làm phân khô hoặc cứng; nếu dùng, hãy uống thêm nhiều nước.",
+    "Soft and broth-rich; generally well tolerated.":
+      "Mềm và nhiều nước; nhìn chung dễ tiêu và dễ chịu.",
+    "High oil content may thicken stool; limit until fully healed.":
+      "Lượng dầu cao có thể làm phân đặc hơn; nên hạn chế cho đến khi hồi phục hoàn toàn.",
   },
 };
+
 
 // Food name translations
 export const foodTranslations = {
