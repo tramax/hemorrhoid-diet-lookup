@@ -5,10 +5,10 @@ export const uiText = {
     subtitle:
       "Check how a food is likely to affect your stool after hemorrhoid surgery. This tool focuses on stool output, softness, hardening risk, and stickiness to help you choose foods that minimise pain when passing motion.",
     searchPlaceholder:
-      "Search by food name or category (e.g. salmon, pho, fruit)...",
+      "Food name or category (salmon, pho, fruit)",
     clear: "Clear",
-    filterCategory: "Filter by category",
-    filterSuitability: "Filter by suitability",
+    filterCategory: "Category",
+    filterSuitability: "Suitability",
     loading: "Loading food database…",
     noResults: "No foods found.",
     noResultsTip:
