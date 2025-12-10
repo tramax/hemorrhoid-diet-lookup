@@ -118,19 +118,19 @@ Protein,Hard-boiled egg,Low,Hard,High,Sticky,Can firm up stool; choose soft-boil
 Protein,Scrambled egg,Low,Soft,Low,Smooth,Soft and moist; usually well tolerated.,2.75,Good
 Protein,Fried egg,Low,Moderately soft,Moderate,Sticky,Can be slightly oily and crisp at the edges; better if cooked gently with little oil.,2.75,Acceptable
 Protein,Century egg,Low,Moderately soft,Moderate,Neutral,Strong flavour but soft texture; acceptable in small portions if tolerated.,2.75,Acceptable
-Dairy,Fresh milk,Low,Neutral,Moderate,Neutral,Generally neutral for stool; acceptable if tolerated.,4,Acceptable
-Dairy,Lactose-free milk,Low,Neutral,Low,Neutral,Gentle on digestion; good alternative for lactose intolerance.,4,Good
+Dairy,Fresh milk,Low,Moderately soft,Moderate,Neutral,Generally neutral for stool; acceptable if tolerated.,4,Acceptable
+Dairy,Lactose-free milk,Low,Moderately soft,Low,Neutral,Gentle on digestion; good alternative for lactose intolerance.,4,Good
 Dairy,Oat milk,Low,Moderately soft,Low,Smooth,Contains soluble fibre that may help soften stool.,4,Good
-Dairy,Soy milk,Low,Neutral,Moderate,Neutral,Neutral effect on stool; choose unsweetened versions.,4,Acceptable
-Dairy,Almond milk,Low,Neutral,Moderate,Neutral,Low residue but no stool‑softening benefit; acceptable.,4,Acceptable
+Dairy,Soy milk,Low,Moderately soft,Moderate,Neutral,Neutral effect on stool; choose unsweetened versions.,4,Acceptable
+Dairy,Almond milk,Low,Moderately soft,Moderate,Neutral,Low residue but no stool‑softening benefit; acceptable.,4,Acceptable
 Dairy,Yogurt,Low,Moderately soft,Low,Smooth,Probiotics may support softer stool; good choice.,4,Good
 Dairy,Yakult,Low,Moderately soft,Moderate,Neutral,Probiotics helpful but high sugar; use small portions.,4,Acceptable
 Dairy,Ice cream,Low,Hard,High,Sticky,High sugar and fat may harden stool; limit during recovery.,4,Poor
 Dairy,Cheddar cheese,Low,Hard,High,Sticky,Dense and low fibre; may worsen constipation.,4,Poor
 Dairy,String cheese,Low,Hard,High,Sticky,Low moisture and dense texture; avoid if stool becomes hard.,4,Poor
 Dairy,Whipped cream,Low,Hard,High,Sticky,High sugar and fat; may harden stool.,4,Poor
-Dairy,Butter,Low,Neutral,Moderate,Neutral,High fat; may cause discomfort; small amounts only.,4,Poor
-Dairy,Margarine,Low,Neutral,Moderate,Neutral,High fat; limited benefit for stool softness.,4,Poor
+Dairy,Butter,Low,Moderately soft,Moderate,Neutral,High fat; may cause discomfort; small amounts only.,4,Poor
+Dairy,Margarine,Low,Moderately soft,Moderate,Neutral,High fat; limited benefit for stool softness.,4,Poor
 Dairy,Condensed milk,Low,Hard,Very high,Very sticky,Extremely high sugar; can significantly harden stool. Avoid.,4,Very Poor
 Dairy,Evaporated milk,Low,Hard,High,Sticky,Concentrated milk with minimal fibre; may harden stool.,4,Poor
 Snack,Almonds,Moderate,Hard,High,Neutral,High insoluble fiber; scratchy residue increases stool bulk and pain.,2,Poor
