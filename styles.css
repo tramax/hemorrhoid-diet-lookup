@@ -8,7 +8,7 @@
   --pill-active-bg: #4f46e5;
   --pill-active-text: #f9fafb;
 
-  --accent-excellent: #16a34a;
+  --accent-excellent: #1680a3;
   --accent-good: #22c55e;
   --accent-acceptable: #ca8a04;
   --accent-poor: #f97316;
@@ -258,8 +258,8 @@ h1 {
 }
 
 .badge.excellent {
-  background: #ecfdf3;
-  border-color: #bbf7d0;
+  background: #ecfdfa;
+  border-color: #bbf7e5;
   color: var(--accent-excellent);
 }
 

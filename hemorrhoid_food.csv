@@ -54,36 +54,36 @@ Grains,Potato (fried),Low,Hard,High,Sticky,Deep‑fried potatoes are dry and oil
 Grains,Taro,Moderate,Moderately soft,Moderate,Neutral,"When well‑boiled in soups or stews, taro is fairly soft but starchy; keep portions small and avoid crispy taro snacks.",2.75,Acceptable
 Grains,Yam,Moderate,Moderately soft,Moderate,Neutral,"Similar to taro; soft when boiled but can still be quite starchy, so combine with fluids and vegetables.",2.75,Acceptable
 Grains,Corn,High,Hard,Moderate,Neutral,Corn skins often pass intact and add rough bulk; may be uncomfortable if your anal area is very sensitive.,2.75,Poor
-Vegetable,Spinach,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Bok choy,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Choy sum,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Kang kong,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Broccoli,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Cauliflower,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Cabbage,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Lettuce,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Romaine,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Iceberg lettuce,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Tomato (raw),Moderate,Hard,Moderate,Neutral,Raw textures may be irritating; cook until soft.,2.75,Poor
-Vegetable,Tomato (cooked),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Carrot (raw),Moderate,Hard,Moderate,Neutral,Raw textures may be irritating; cook until soft.,2.75,Poor
-Vegetable,Carrot (steamed),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Pumpkin,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Winter melon,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Bitter gourd,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Long beans,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,French beans,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Okra,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Eggplant,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Daikon,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Kimchi,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Sauerkraut,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Mushroom (shiitake),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Mushroom (enoki),Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Onion,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Garlic,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Seaweed,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
-Vegetable,Bean sprouts,Moderate,Moderately soft,Moderate,Neutral,Good choice when cooked well.,3,Acceptable
+Vegetable,Spinach,Low,Soft,Low,Smooth,High water and soluble fiber; very stool-softening.,3,Excellent
+Vegetable,Bok choy,Low,Soft,Low,Smooth,Very gentle leafy vegetable; softens stool effectively.,3,Excellent
+Vegetable,Choy sum,Low,Soft,Low,Smooth,Soft textured greens that support stool softness.,3,Excellent
+Vegetable,Kang kong,Low,Moderately soft,Low,Neutral,Water-rich and soft when cooked; gentle on digestion.,3,Good
+Vegetable,Broccoli,Moderate,Moderately soft,Moderate,Neutral,Healthy but gassy; cook well and use small portions.,3,Acceptable
+Vegetable,Cauliflower,Moderate,Moderately soft,Moderate,Neutral,Cook thoroughly; may cause gas which increases discomfort.,3,Acceptable
+Vegetable,Cabbage,Moderate,Moderately soft,Moderate,Neutral,Soft when cooked but can create gas; moderate portions.,3,Acceptable
+Vegetable,Lettuce,Low,Soft,Moderate,Neutral,Hydrating but low soluble fiber; may not soften stool meaningfully.,3,Acceptable
+Vegetable,Romaine,Low,Soft,Moderate,Neutral,Hydrating but slightly rougher; acceptable in small amounts.,3,Acceptable
+Vegetable,Iceberg lettuce,Low,Soft,Moderate,Neutral,Very high water but little stool-softening fiber.,3,Acceptable
+Vegetable,Tomato (raw),Low,Moderately soft,Moderate,Neutral,Contains seeds that may irritate; remove if sensitive.,2.75,Acceptable
+Vegetable,Tomato (cooked),Low,Soft,Low,Smooth,Soft and hydrating; safer than raw tomatoes.,3,Good
+Vegetable,Carrot (raw),Moderate,Hard,High,Neutral,High insoluble fiber; rough and can firm stool.,2.75,Poor
+Vegetable,Carrot (steamed),Moderate,Moderately soft,Moderate,Neutral,Cooking breaks down fibers; gentler on digestion.,3,Good
+Vegetable,Pumpkin,Low,Soft,Low,Smooth,Rich in soluble fiber; very stool-softening.,3,Excellent
+Vegetable,Winter melon,Low,Very soft,Low,Smooth,Extremely soft and hydrating; ideal during early recovery.,3,Excellent
+Vegetable,Bitter gourd,Moderate,Moderately soft,Moderate,Neutral,Soft when cooked but slightly rough; moderate portions.,3,Acceptable
+Vegetable,Long beans,High,Hard,High,Neutral,High insoluble fiber; bulky stool and harder to pass.,3,Poor
+Vegetable,French beans,High,Hard,High,Neutral,Tough skins and high insoluble fiber; avoid early on.,3,Poor
+Vegetable,Okra,Low,Very soft,Very low,Smooth,Mucilage lubricates stool and makes passing easier.,3,Excellent
+Vegetable,Eggplant,Low,Soft,Low,Smooth,Soft and water-rich when cooked; very gentle.,3,Excellent
+Vegetable,Daikon,Moderate,Moderately soft,Moderate,Neutral,Soft when cooked; mild on digestion.,3,Good
+Vegetable,Kimchi,Moderate,Hard,High,Sticky,"Fermented, spicy, and fibrous; can irritate and worsen pain.",3,Very Poor
+Vegetable,Sauerkraut,Moderate,Moderately soft,High,Neutral,Fermented and acidic; may cause gas and discomfort.,3,Poor
+Vegetable,Mushroom (shiitake),Moderate,Moderately soft,Moderate,Neutral,Fibrous stems; remove and cook well.,3,Acceptable
+Vegetable,Mushroom (enoki),Moderate,Moderately soft,Moderate,Neutral,Soft but stringy; chew well to prevent tangling in stool.,3,Good
+Vegetable,Onion,Low,Hard,High,Neutral,High FODMAP; gas increases anorectal pain.,3,Poor
+Vegetable,Garlic,Low,Hard,High,Neutral,Strong FODMAP; causes bloating and discomfort.,3,Poor
+Vegetable,Seaweed,Low,Soft,Low,Smooth,Contains soluble fiber; gently softens stool.,3,Good
+Vegetable,Bean sprouts,Moderate,Moderately soft,Moderate,Neutral,"Soft when cooked; rough when raw, so always cook well.",3,Good
 Protein,Chicken breast,Low,Moderately soft,Moderate,Neutral,Lean and soft when cooked gently; chew well and avoid very dry versions.,2.75,Good
 Protein,Chicken thigh,Moderate,Moderately soft,Moderate,Neutral,Softer cut with more fat; fine in small portions if cooked tender.,2.75,Acceptable
 Protein,Chicken skin,Low,Moderately soft,Moderate,Sticky,Very fatty; may lubricate stool but can cause discomfort if eaten in large amounts.,2.75,Acceptable
